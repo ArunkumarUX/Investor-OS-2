@@ -1,0 +1,2 @@
+import RecordWorkspace from "@/components/RecordWorkspace";
+export default function Page() { return <RecordWorkspace collection="tasks" title="Tasks" singular="Task" description="Make the next step clear. Assign follow-ups, set a due date, and track completion." titleKey="title" subtitleKey="companyId" completable fields={[{key:"title",label:"What needs to happen?",required:true},{key:"owner",label:"Owner",required:true},{key:"due",label:"Due date",type:"date"},{key:"companyId",label:"Company"}]}/>; }

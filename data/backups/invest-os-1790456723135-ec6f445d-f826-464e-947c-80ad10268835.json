@@ -1,0 +1,2222 @@
+{
+  "format": "invest-os-backup-v1",
+  "createdAt": "2026-09-26T21:05:23.134Z",
+  "sha256": "2c8d8c8d984e370d6bbcb96d4497a7f3f016aadabdcfd20c1484d7846286d6f0",
+  "data": {
+    "deals": [
+      {
+        "id": "nova-ai",
+        "companyId": "nova-ai",
+        "name": "Nova AI",
+        "sector": "AI/ML",
+        "stage": "committee",
+        "status": "active",
+        "matchScore": 94,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "helix-health",
+        "companyId": "helix-health",
+        "name": "Helix Health",
+        "sector": "HealthTech",
+        "stage": "diligence",
+        "status": "active",
+        "matchScore": 91,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "finflow",
+        "companyId": "finflow",
+        "name": "FinFlow",
+        "sector": "FinTech",
+        "stage": "diligence",
+        "status": "active",
+        "matchScore": 89,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "atomspace",
+        "companyId": "atomspace",
+        "name": "AtomSpace",
+        "sector": "Infrastructure",
+        "stage": "contacted",
+        "status": "active",
+        "matchScore": 85,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "cortex-legal",
+        "companyId": "cortex-legal",
+        "name": "Cortex Legal",
+        "sector": "LegalTech",
+        "stage": "contacted",
+        "status": "active",
+        "matchScore": 88,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "solaris-energy",
+        "companyId": "solaris-energy",
+        "name": "Solaris Energy",
+        "sector": "CleanTech",
+        "stage": "discovered",
+        "status": "active",
+        "matchScore": 82,
+        "owner": "SK",
+        "source": "AI discovery",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "edgeml",
+        "companyId": "edgeml",
+        "name": "EdgeML",
+        "sector": "AI/ML",
+        "stage": "discovered",
+        "status": "active",
+        "matchScore": 93,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "medsync",
+        "companyId": "medsync",
+        "name": "MedSync",
+        "sector": "HealthTech",
+        "stage": "discovered",
+        "status": "active",
+        "matchScore": 87,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "voiceflow",
+        "companyId": "voiceflow",
+        "name": "VoiceFlow AI",
+        "sector": "SaaS",
+        "stage": "invested",
+        "status": "active",
+        "matchScore": 78,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "carbonzero",
+        "companyId": "carbonzero",
+        "name": "CarbonZero",
+        "sector": "CleanTech",
+        "stage": "passed",
+        "status": "active",
+        "matchScore": 80,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "stealth-quantum",
+        "companyId": "stealth-quantum",
+        "name": "Quantum Labs",
+        "sector": "Cybersecurity",
+        "stage": "discovered",
+        "status": "active",
+        "matchScore": 86,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "supplychain-ai",
+        "companyId": "supplychain-ai",
+        "name": "SupplyIQ",
+        "sector": "Enterprise AI",
+        "stage": "discovered",
+        "status": "active",
+        "matchScore": 84,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "deeplogic",
+        "companyId": "deeplogic",
+        "name": "DeepLogic AI",
+        "sector": "AI/ML",
+        "stage": "invested",
+        "status": "portfolio",
+        "matchScore": 90,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "nexus-health",
+        "companyId": "nexus-health",
+        "name": "Nexus Health",
+        "sector": "HealthTech",
+        "stage": "invested",
+        "status": "portfolio",
+        "matchScore": 83,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "blockvault",
+        "companyId": "blockvault",
+        "name": "BlockVault",
+        "sector": "FinTech",
+        "stage": "invested",
+        "status": "portfolio",
+        "matchScore": 74,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "terrabyte",
+        "companyId": "terrabyte",
+        "name": "TerraByte",
+        "sector": "CleanTech",
+        "stage": "invested",
+        "status": "portfolio",
+        "matchScore": 68,
+        "owner": "AG",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "automate-pro",
+        "companyId": "automate-pro",
+        "name": "AutomatePro",
+        "sector": "SaaS",
+        "stage": "invested",
+        "status": "portfolio",
+        "matchScore": 71,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "clearsky-data",
+        "companyId": "clearsky-data",
+        "name": "ClearSky Data",
+        "sector": "Infrastructure",
+        "stage": "invested",
+        "status": "portfolio",
+        "matchScore": 79,
+        "owner": "SK",
+        "source": "Inbound / network",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "con-1",
+        "name": "Sarah Chen",
+        "title": "CEO, Nova AI",
+        "type": "founder",
+        "email": "sarah@nova.ai",
+        "note": "Met at AI Eng World's Fair — strong technical conviction",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-2",
+        "name": "Marcus Webb",
+        "title": "CTO, Nova AI",
+        "type": "founder",
+        "email": "marcus@nova.ai",
+        "note": "Ex-OpenAI; reference checked via 2 mutual contacts",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-3",
+        "name": "Dr. Priya Sharma",
+        "title": "CEO, Helix Health",
+        "type": "founder",
+        "email": "priya@helix.health",
+        "note": "NHS clinician-founder; intro via Oxford network",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-4",
+        "name": "Ahmed Al-Rashid",
+        "title": "CEO, FinFlow",
+        "type": "founder",
+        "email": "ahmed@finflow.ae",
+        "note": "MENA treasury expert; second-time founder",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-5",
+        "name": "Rachel Torres",
+        "title": "CEO, Cortex Legal",
+        "type": "founder",
+        "email": "rachel@cortexlegal.com",
+        "note": "Ex-BigLaw partner with distribution into top firms",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-6",
+        "name": "Hannah Müller",
+        "title": "CEO, Solaris Energy",
+        "type": "founder",
+        "email": "hannah@solaris.energy",
+        "note": "20 years utility sector; EU regulatory fluency",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-7",
+        "name": "Ethan Park",
+        "title": "CEO, DeepLogic AI",
+        "type": "portfolio-founder",
+        "email": "ethan@deeplogic.ai",
+        "note": "Portfolio; Series B negotiation in progress",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-8",
+        "name": "Sofia Lindgren",
+        "title": "CEO, ClearSky Data",
+        "type": "portfolio-founder",
+        "email": "sofia@clearsky.data",
+        "note": "Portfolio; follow-on candidate",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-9",
+        "name": "Vertex Ventures",
+        "title": "Co-investor",
+        "type": "co-investor",
+        "email": "deals@vertex.vc",
+        "note": "Co-led VoiceFlow seed; deal-share partner",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-10",
+        "name": "Pinnacle Endowment",
+        "title": "Limited Partner",
+        "type": "lp",
+        "email": "allocations@pinnacle.org",
+        "note": "$15M commitment; quarterly reporting",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-11",
+        "name": "Al-Rashid Family Office",
+        "title": "Limited Partner",
+        "type": "lp",
+        "email": "invest@alrashid-fo.com",
+        "note": "$10M commitment; MENA network access",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-12",
+        "name": "Nordic Pension Alpha",
+        "title": "Limited Partner",
+        "type": "lp",
+        "email": "alpha@nordicpension.se",
+        "note": "$8M commitment; ESG-mandated",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-13",
+        "name": "TechVenture LP",
+        "title": "Limited Partner",
+        "type": "lp",
+        "email": "ir@techventure.com",
+        "note": "$5M commitment; operator network",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-14",
+        "name": "Gavin Mehta",
+        "title": "Advisor — AI infrastructure",
+        "type": "advisor",
+        "email": "gavin@mehta.ai",
+        "note": "Technical diligence support on EdgeML/AtomSpace",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "con-15",
+        "name": "Claire Dubois",
+        "title": "Advisor — EU health regulation",
+        "type": "advisor",
+        "email": "claire@euhealth.adv",
+        "note": "Regulatory pathway reviews for HealthTech deals",
+        "lastTouch": "2026-09-20",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "tsk-1",
+        "title": "Request FinFlow cohort retention analysis",
+        "companyId": "finflow",
+        "owner": "SK",
+        "due": "2026-09-27",
+        "status": "open",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "tsk-2",
+        "title": "Reference call — FinFlow CFO",
+        "companyId": "finflow",
+        "owner": "AG",
+        "due": "2026-09-26",
+        "status": "open",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "tsk-3",
+        "title": "Verify Helix clinical validation dataset",
+        "companyId": "helix-health",
+        "owner": "AG",
+        "due": "2026-09-28",
+        "status": "open",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "tsk-4",
+        "title": "Chase Cortex Legal data-room access",
+        "companyId": "cortex-legal",
+        "owner": "SK",
+        "due": "2026-09-26",
+        "status": "open",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "tsk-5",
+        "title": "Model Nova AI at $80M vs $95M cap",
+        "companyId": "nova-ai",
+        "owner": "AG",
+        "due": "2026-09-25",
+        "status": "done",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "tsk-6",
+        "title": "Draft TerraByte board memo post-CEO exit",
+        "companyId": "terrabyte",
+        "owner": "AG",
+        "due": "2026-09-29",
+        "status": "open",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      },
+      {
+        "id": "tsk-7",
+        "title": "Send Q3 LP letter",
+        "companyId": "",
+        "owner": "AG",
+        "due": "2026-09-30",
+        "status": "open",
+        "createdAt": "2026-09-18T09:00:00.000Z"
+      }
+    ],
+    "commitments": [
+      {
+        "id": "cmt-1",
+        "lp": "Pinnacle Endowment Fund",
+        "committed": 15000000,
+        "called": 10800000,
+        "status": "funded",
+        "vintage": "Fund I (2022)",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "cmt-2",
+        "lp": "Al-Rashid Family Office",
+        "committed": 10000000,
+        "called": 6600000,
+        "status": "funded",
+        "vintage": "Fund I (2022)",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "cmt-3",
+        "lp": "Nordic Pension Alpha",
+        "committed": 8000000,
+        "called": 5280000,
+        "status": "funded",
+        "vintage": "Fund I (2022)",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "cmt-4",
+        "lp": "TechVenture LP",
+        "committed": 5000000,
+        "called": 3300000,
+        "status": "funded",
+        "vintage": "Fund I (2022)",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "cmt-5",
+        "lp": "Kestrel Sovereign Fund",
+        "committed": 12000000,
+        "called": 0,
+        "status": "signed — first close pending",
+        "vintage": "Fund I (2022)",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      }
+    ],
+    "research": [
+      {
+        "title": "Nova AI — research brief",
+        "companyId": "nova-ai",
+        "body": "Nova AI\n\nOverview\nAutonomous AI agents for enterprise workflow automation\n\nMarket\nNova AI operates in AI/ML, addressing a $47B TAM with a $8B serviceable market and a realistic $400M serviceable obtainable market. The Series A entry point in USA is attractive: autonomous ai agents for enterprise workflow automation. Demand is validated by $2.4M ARR in revenue growing +340% YoY, indicating the market is pulling the product rather than the team pushing it. Competitive window: incumbents in AI/ML are generally 18–30 months behind on AI-native architecture, but that window closes if hyperscalers productise the same capability.\n\nTechnology\nTechnical diligence on Nova AI centres on Marcus Webb (Ex-OpenAI, built GPT-4 fine-tuning infra). 48-person team at Series A is an appropriate engineering-to-GTM ratio. The core differentiator — Proprietary fine-tuning pipeline creates durable moat — is defensible if it survives independent benchmarking. Open items: architecture scalability under 10x load, cloud/vendor dependency, on-prem or data-residency support (required by a majority of enterprise buyers in AI/ML), and whether the moat is data, distribution, or engineering speed. Technical debt appears manageable at this headcount.\n\nFinancials\nAt $80M on $2.4M ARR, the round prices at 33.3x ARR. Growth of +340% YoY is the headline metric and is above the Series A median for AI/ML. Key unknowns that drive the model: average contract value, gross margin after inference/compute costs, CAC payback period, net revenue retention, and burn multiple. A 33.3x multiple leaves little margin of safety — we would need retention above 115% and gross margin above 70% to justify it. Runway post-raise must be modelled at 18 months minimum before we commit.\n\nRisks to verify\n• Crowded market — 200+ competitors in AI automation\n\nNext questions\n• What is net revenue retention over the last four quarters, and how much of $2.4M ARR is expansion vs new logos?\n• Break down gross margin after compute/inference costs — and how does it move at 5x volume?\n• Who are the top 5 customers as a percentage of ARR, and what triggered any churn in the last 12 months?\n• What specifically is defensible about founding team from deepmind + openai, 3 prior exits — and how long until a well-funded competitor replicates it?\n• Post-raise runway in months at current burn, and what milestone does this round have to hit before the next one?\n• How is equity split among Sarah Chen and Marcus Webb, and what are the vesting terms?",
+        "source": "Sample brief · illustrative, not independently verified",
+        "id": "res-muitq033-goji5",
+        "createdAt": "2026-09-26T20:09:53.391Z",
+        "updatedAt": "2026-09-26T20:09:53.391Z"
+      }
+    ],
+    "strategy": [
+      {
+        "id": "strategy-fund-1",
+        "fund": "Fund I",
+        "thesis": "AI-native infrastructure and applied-AI companies with a defensible data or workflow moat, seeded through Series A, in the US, UK, EU and select APAC hubs.",
+        "sectors": [
+          "AI/ML",
+          "FinTech",
+          "HealthTech",
+          "CleanTech",
+          "Infrastructure",
+          "Cybersecurity"
+        ],
+        "stages": [
+          "Pre-seed",
+          "Seed",
+          "Series A"
+        ],
+        "geos": [
+          "USA",
+          "UK",
+          "Europe",
+          "APAC",
+          "Israel"
+        ],
+        "checkSize": "$250K–$3M initial, up to $5M with follow-ons",
+        "ownership": "Target 8–15% at entry",
+        "portfolio": "20–25 companies, max 12% single-position",
+        "exclusions": [
+          "Consumer social",
+          "Pure crypto trading",
+          "Pre-revenue hardware",
+          "Defence/lethal autonomy"
+        ],
+        "holdPeriod": "7–10 years",
+        "returnTarget": ">3x net TVPI, top-quartile IRR",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      }
+    ],
+    "notifications": [],
+    "submissions": [],
+    "integrations": [
+      {
+        "id": "int-1",
+        "name": "Claude (Anthropic)",
+        "category": "AI analysis",
+        "status": "connected",
+        "description": "Powers due diligence, committee debate and market research",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-2",
+        "name": "Perplexity / Web search",
+        "category": "Market research",
+        "status": "not-connected",
+        "description": "Live source retrieval for Market Research",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-3",
+        "name": "PitchBook",
+        "category": "Deal data",
+        "status": "not-connected",
+        "description": "Comparable rounds, valuations and exits",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-4",
+        "name": "Crunchbase",
+        "category": "Company data",
+        "status": "not-connected",
+        "description": "Funding history and team tracking",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-5",
+        "name": "Google Drive",
+        "category": "Document store",
+        "status": "not-connected",
+        "description": "Sync data-room documents",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-6",
+        "name": "Slack",
+        "category": "Notifications",
+        "status": "not-connected",
+        "description": "Deal alerts to #deals channel",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-7",
+        "name": "Notion",
+        "category": "Knowledge base",
+        "status": "not-connected",
+        "description": "Export memos and DD reports",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      },
+      {
+        "id": "int-8",
+        "name": "Stripe Atlas",
+        "category": "Portfolio ops",
+        "status": "not-connected",
+        "description": "Incorporation and banking for portfolio",
+        "createdAt": "2026-09-01T09:00:00.000Z"
+      }
+    ],
+    "captures": [
+      {
+        "id": "4a1cdd27-6061-4bfe-bf7b-4d50dc0790b5",
+        "companyId": "nova-ai",
+        "kind": "diligence",
+        "body": "AI eight-role review completed. Evidence packet saved with review 464252eb-4bbc-4df8-8f57-71f352f1ba1f.",
+        "author": "Investment team",
+        "createdAt": "2026-09-26T20:59:30.205Z"
+      },
+      {
+        "id": "cap-mui4ec9p-wsn0w",
+        "companyId": "helix-health",
+        "kind": "pitch",
+        "body": "AI diagnostics reducing misdiagnosis by 73% across 12 NHS hospitals. Strong clinical validation, FDA breakthrough in process.",
+        "author": "AG",
+        "createdAt": "2026-09-26T08:20:58.909Z",
+        "meta": {
+          "deckUrl": "https://drive.example/helix-deck.pdf",
+          "videoUrl": "https://loom.example/helix",
+          "askAmount": "$1.5M",
+          "valuation": "$28M",
+          "summary": "NHS clinician-founder with validated diagnostic AI",
+          "scores": {
+            "team": 9,
+            "product": 8,
+            "market": 8,
+            "traction": 7,
+            "timing": 9
+          }
+        }
+      },
+      {
+        "id": "cap-mui4eca3-ubqdi",
+        "companyId": "helix-health",
+        "kind": "question",
+        "body": "What is your NHS pilot conversion rate?",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:58.923Z",
+        "meta": {}
+      },
+      {
+        "id": "cap-mui4ecai-7hog7",
+        "companyId": "helix-health",
+        "kind": "question",
+        "body": "FDA 510k or De Novo pathway timeline?",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:58.938Z",
+        "meta": {
+          "status": "answered",
+          "answer": "FDA De Novo, 14-18 months",
+          "answeredAt": "2026-09-26"
+        }
+      },
+      {
+        "id": "cap-mui4ecaw-od6jn",
+        "companyId": "helix-health",
+        "kind": "question",
+        "body": "What is gross margin per diagnostic run?",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:58.952Z",
+        "meta": {
+          "status": "answered",
+          "answer": "Founder response captured",
+          "answeredAt": "2026-09-26"
+        }
+      },
+      {
+        "id": "cap-mui4ecb8-j2igx",
+        "companyId": "helix-health",
+        "kind": "comment",
+        "body": "Clinical data room reviewed — 94% accuracy confirmed",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:58.964Z",
+        "meta": {}
+      },
+      {
+        "id": "cap-mui4ecbn-bkyvl",
+        "companyId": "helix-health",
+        "kind": "comment",
+        "body": "Tom Briggs reference call positive",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:58.979Z",
+        "meta": {}
+      },
+      {
+        "id": "cap-mui4ecc0-zs8xi",
+        "companyId": "helix-health",
+        "kind": "comment",
+        "body": "Regulatory counsel sees manageable path",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:58.992Z",
+        "meta": {}
+      },
+      {
+        "id": "cap-mui4eccd-8scij",
+        "companyId": "helix-health",
+        "kind": "meeting",
+        "body": "Founder call — clinical validation deep dive",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:59.005Z",
+        "meta": {
+          "date": "2026-09-24",
+          "attendees": "AG, Priya Sharma",
+          "followUps": "Send cohort data request"
+        }
+      },
+      {
+        "id": "cap-mui4eccs-tfhfh",
+        "companyId": "helix-health",
+        "kind": "task",
+        "body": "Request cohort retention data",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:59.020Z",
+        "meta": {
+          "owner": "AG",
+          "due": "2026-09-30",
+          "status": "done"
+        }
+      },
+      {
+        "id": "cap-mui4ecd5-eegiy",
+        "companyId": "helix-health",
+        "kind": "diligence",
+        "body": "5-agent AI diligence run complete",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:59.033Z",
+        "meta": {}
+      },
+      {
+        "id": "cap-mui4ecdj-g7jmx",
+        "companyId": "helix-health",
+        "kind": "vote",
+        "body": "",
+        "author": "AG",
+        "createdAt": "2026-09-26T08:20:59.047Z",
+        "meta": {
+          "member": "AG",
+          "verdict": "invest",
+          "confidence": 85,
+          "rationale": "Clinical validation is rare and defensible"
+        }
+      },
+      {
+        "id": "cap-mui4ecdv-wn57x",
+        "companyId": "helix-health",
+        "kind": "vote",
+        "body": "",
+        "author": "SK",
+        "createdAt": "2026-09-26T08:20:59.059Z",
+        "meta": {
+          "member": "SK",
+          "verdict": "watch",
+          "confidence": 60,
+          "rationale": "Regulatory timeline risk"
+        }
+      },
+      {
+        "id": "cap-mui4ece8-9adyx",
+        "companyId": "helix-health",
+        "kind": "decision",
+        "body": "INVEST at 85% confidence",
+        "author": "You",
+        "createdAt": "2026-09-26T08:20:59.072Z",
+        "meta": {}
+      },
+      {
+        "id": "cap-mui4eojd-ja3dy",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Pitch deck",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.809Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eojr-absx2",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Cap table",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.823Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eok6-w770g",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Financial model",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.838Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eokj-em7rx",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Customer contracts (top 5)",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.851Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eokw-yrhh8",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "IP / patent assignments",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.864Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eol9-nrbga",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Data room index",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.877Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eoll-hyb3j",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Founders' background checks",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.889Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-mui4eom1-0jppd",
+        "companyId": "helix-health",
+        "kind": "document",
+        "body": "Legal / incorporation docs",
+        "author": "You",
+        "createdAt": "2026-09-26T08:21:14.905Z",
+        "meta": {
+          "status": "received"
+        }
+      },
+      {
+        "id": "cap-muitq3f9-0fkyy",
+        "companyId": "nova-ai",
+        "kind": "diligence",
+        "body": "Sample analysis reviewed. Claims require verification before a decision.",
+        "author": "Investment team",
+        "createdAt": "2026-09-26T20:09:57.717Z",
+        "meta": {}
+      }
+    ],
+    "intelligence-v1": [
+      {
+        "id": "intelligence-v1",
+        "state": {
+          "watches": [
+            {
+              "id": "bfeb4923-924c-4c85-bc56-23b38413b89e",
+              "companyId": "nova-ai",
+              "query": "enterprise AI",
+              "enabled": true,
+              "createdAt": "2026-09-26T20:53:45.032Z",
+              "seenIds": [
+                "hn-49827032",
+                "hn-49803759",
+                "hn-49770580",
+                "hn-49769137",
+                "hn-49745351",
+                "hn-49739837",
+                "hn-49724778",
+                "hn-49720815",
+                "doi-10.21275/sr25521024520",
+                "doi-10.1007/978-3-032-01940-0_8",
+                "doi-10.1007/978-3-032-01940-0_4",
+                "doi-10.1007/979-8-8688-0902-6_8",
+                "doi-10.1007/979-8-8688-0902-6_9"
+              ],
+              "lastChecked": "2026-09-26T21:03:38.026Z"
+            }
+          ],
+          "decisions": [],
+          "evidence": [
+            {
+              "id": "be6412ae-ea6b-4063-9942-d2fde38220ff",
+              "companyId": "nova-ai",
+              "title": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI",
+              "body": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI\nSource: Crossref · International Journal of Science and Research\nPublished: 2025-05-26\nRetrieved: 2026-09-26T20:51:10.327Z\nPublisher-supplied bibliographic metadata. The full paper has not been read or independently assessed.\nSaved as a research lead, not verified company evidence.",
+              "url": "https://doi.org/10.21275/sr25521024520",
+              "createdAt": "2026-09-26T20:53:03.306Z",
+              "provenance": "user-supplied"
+            }
+          ],
+          "runs": [
+            {
+              "id": "464252eb-4bbc-4df8-8f57-71f352f1ba1f",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:59:00.771Z",
+              "mode": "ai",
+              "status": "complete",
+              "evidence": [
+                {
+                  "id": "be6412ae-ea6b-4063-9942-d2fde38220ff",
+                  "companyId": "nova-ai",
+                  "title": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI",
+                  "body": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI\nSource: Crossref · International Journal of Science and Research\nPublished: 2025-05-26\nRetrieved: 2026-09-26T20:51:10.327Z\nPublisher-supplied bibliographic metadata. The full paper has not been read or independently assessed.\nSaved as a research lead, not verified company evidence.",
+                  "url": "https://doi.org/10.21275/sr25521024520",
+                  "createdAt": "2026-09-26T20:53:03.306Z",
+                  "provenance": "user-supplied"
+                }
+              ],
+              "retryOf": "639d2775-d798-4156-8b0c-bac81d92791a",
+              "agents": [
+                {
+                  "id": "market",
+                  "status": "complete",
+                  "summary": "Evidence is insufficient to support meaningful market analysis for Nova AI. The single available evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs for enterprise search, which is only loosely related to Nova AI's autonomous workflow automation focus. No market sizing data, competitive landscape analysis, or demand signals from verified sources are present in the evidence packet. All company context is provided as sample/fictional data and cannot be treated as verified fact.",
+                  "claims": [
+                    {
+                      "text": "The available evidence references academic work on AI-driven knowledge graphs for enterprise search, suggesting growing research interest in AI applications for enterprise environments broadly — a space adjacent to Nova AI's stated focus.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The evidence item is flagged as 'publisher-supplied bibliographic metadata' with the full paper not read or independently assessed, meaning its substantive findings cannot be relied upon.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The evidence item is marked as 'user-supplied' provenance and 'saved as a research lead, not verified company evidence,' limiting its evidentiary weight for investment analysis.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Whether Nova AI's $47B TAM, competitive differentiation, or 200+ competitor risk claims are substantiated cannot be determined from the available evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can verified third-party market research reports (e.g., Gartner, IDC) be sourced to validate the $47B TAM and competitive density claims for enterprise AI workflow automation?",
+                    "What independent evidence exists to confirm the Fortune 500 pre-launch contracts referenced in the company profile — such as signed LOIs, press releases, or customer references?",
+                    "Has the full text of the referenced academic paper been reviewed, and are there additional peer-reviewed or industry sources that directly benchmark demand for autonomous AI agents in enterprise workflows?"
+                  ]
+                },
+                {
+                  "id": "technical",
+                  "status": "complete",
+                  "summary": "The evidence packet for Nova AI contains only a single user-supplied research lead — a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search. This paper has not been independently assessed and is not verified company evidence. No technical documentation, product architecture details, IP filings, or engineering artifacts for Nova AI have been provided. Meaningful technical due diligence on Nova AI's architecture and defensibility cannot be performed from this evidence alone.",
+                  "claims": [
+                    {
+                      "text": "A research lead referencing an academic paper on AI-driven knowledge graphs for enterprise search was saved in Nova AI's evidence packet, but the full paper has not been read or independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The saved research lead is classified as user-supplied provenance, meaning it has not been verified as directly relevant to Nova AI's proprietary technology or product.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "If Nova AI's workflow automation platform incorporates knowledge graph techniques for enterprise search, this academic literature could be contextually relevant — but no such connection has been established by the available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The technical basis for the claimed 'proprietary fine-tuning pipeline' moat is entirely unsubstantiated by the evidence provided.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "No technical documentation, architecture diagrams, patent filings, or engineering references specific to Nova AI have been supplied in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide technical documentation or a whitepaper describing the architecture and differentiation of their proprietary fine-tuning pipeline?",
+                    "Are there any patent applications, IP filings, or trade secret disclosures that substantiate the claimed durable technical moat?",
+                    "What is the specific connection, if any, between the knowledge graph research lead and Nova AI's actual product — was this saved as a competitive reference, inspiration, or evidence of internal R&D?"
+                  ]
+                },
+                {
+                  "id": "financial",
+                  "status": "complete",
+                  "summary": "Revenue quality, valuation, and unit economics for Nova AI cannot be meaningfully assessed from the available evidence. The sole evidence item is an unread, user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs — not verified company evidence and only loosely related to Nova AI's stated focus. All financial claims ($2.4M ARR, +340% YoY growth, $80M valuation) originate exclusively from unverified company-supplied context with zero independent corroboration in the evidence packet.",
+                  "claims": [
+                    {
+                      "text": "The only item in the evidence packet is a publisher-supplied bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search, explicitly flagged as a research lead and not verified company evidence — providing no basis for revenue quality or valuation analysis.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's subject matter is only tangentially related to Nova AI's autonomous workflow automation focus; no connection to Nova AI's revenue model, pricing, or customer economics has been established by any available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The $2.4M ARR figure, +340% YoY growth rate, and $80M valuation are entirely unverified assertions from company-supplied context; no audited financials, accountant-reviewed statements, or independent revenue confirmation exist in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Unit economics inputs — including customer acquisition cost, average contract value, gross margin, net revenue retention, and payback period — are wholly absent from the evidence packet and cannot be estimated from available materials.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The implied revenue multiple of approximately 33x ARR on the $80M valuation cannot be assessed for reasonableness without verified ARR, customer concentration data, contract terms, or comparable transaction benchmarks supported by evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide audited or accountant-reviewed financial statements, or at minimum a third-party-confirmed ARR schedule broken down by customer, contract start date, and contract value, to independently verify the $2.4M ARR and +340% YoY growth claims?",
+                    "What are the key unit economics metrics — including average contract value, gross margin, CAC, payback period, and net revenue retention — and can these be substantiated with underlying billing records or a data room accessible to the investment team?",
+                    "What is the basis for the $80M Series A valuation, and can the company provide the full Series A cap table, term sheet, and any independent valuation analysis or investor-agreed methodology used to set the price?"
+                  ]
+                },
+                {
+                  "id": "legal",
+                  "status": "complete",
+                  "summary": "The legal evidence packet for Nova AI is critically insufficient. The sole evidence item is a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs, flagged as user-supplied and not independently verified. No IP filings, contracts, founder assignment agreements, employment/non-compete documentation, or licensing records have been provided. Legal due diligence cannot be meaningfully conducted on the available evidence alone.",
+                  "claims": [
+                    {
+                      "text": "The only evidence item in the packet is a publisher-supplied bibliographic reference to an academic paper; the full paper has not been read or independently assessed, and it is explicitly marked as a research lead rather than verified company evidence.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper references AI-driven knowledge graphs for enterprise search; if Nova AI's product incorporates such techniques, questions of IP ownership, prior art, and potential licensing obligations may arise — but no connection between this paper and Nova AI's IP has been established by the evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "No patent applications, trade secret disclosures, IP assignment agreements, founder IP contribution records, or third-party licensing contracts for Nova AI have been supplied in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The company profile references Fortune 500 contracts signed pre-launch, but no executed agreements, letters of intent, or legal instruments have been provided to verify the existence, terms, or enforceability of these contracts.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Given that key founders are described as former DeepMind and OpenAI employees, potential IP encumbrances from prior employer agreements (non-competes, IP assignment clauses, non-solicitation) represent an unverified legal risk that cannot be assessed from the available evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide copies of all founder IP assignment agreements, prior employer separation agreements, and any non-compete or non-solicitation obligations that could encumber the company's core technology — for review by qualified counsel?",
+                    "Have any patent applications been filed for the proprietary fine-tuning pipeline, and if so, can application numbers, filing dates, and prosecution status be disclosed to assess IP ownership and freedom-to-operate?",
+                    "Can executed copies of the referenced Fortune 500 customer contracts be made available under NDA for legal review, including confirmation of governing law, termination rights, data ownership provisions, and liability caps?"
+                  ]
+                },
+                {
+                  "id": "founder",
+                  "status": "complete",
+                  "summary": "The founder evidence for Nova AI is insufficient for meaningful due diligence. The sole evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs — user-supplied, unverified, and not directly linked to either founder. Claimed credentials for Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, built GPT-4 fine-tuning infra) are drawn entirely from unverified company context and cannot be corroborated from the available evidence packet.",
+                  "claims": [
+                    {
+                      "text": "The only item in the evidence packet is a user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, which is not linked to either founder and has not been independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The paper's subject matter — AI-driven knowledge graphs for enterprise search — is tangentially related to Nova AI's stated domain, but no connection to the founders' specific work or authorship has been established by the available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The claimed credentials of Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, GPT-4 fine-tuning infrastructure) are entirely unverified — no employment records, publications, or third-party confirmations are present in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The claim of '3 prior exits' attributed to the founding team in the company profile cannot be assessed, as no deal records, press releases, or corroborating documentation are available in the evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "No founder-linked artifacts such as academic publications, conference presentations, patent filings, or verifiable employment histories have been supplied, making execution track record assessment impossible from current evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can verifiable LinkedIn profiles, employment confirmation letters, or references from DeepMind and OpenAI leadership be provided to corroborate the founders' stated roles and tenures?",
+                    "What documentation exists to substantiate the '3 prior exits' claim — such as CrunchBase records, press releases, or acquisition announcements naming the founders?",
+                    "Are there any published papers, patents, or public technical contributions (e.g., GitHub, arXiv) attributable to Sarah Chen or Marcus Webb that would independently validate their claimed technical expertise?"
+                  ]
+                },
+                {
+                  "id": "skeptic",
+                  "status": "complete",
+                  "summary": "From a skeptic's standpoint, Nova AI's investment case rests almost entirely on unverified company-supplied assertions. The single evidence item in the packet is a loosely related academic bibliographic reference that has not been read, assessed, or tied to Nova AI's actual product. Every key bull case claim — proprietary moat, Fortune 500 contracts, founder pedigree, and ARR growth — is unsubstantiated by independent evidence. The risk of confirmation bias in the AI recommendation is high given the evidence gap.",
+                  "claims": [
+                    {
+                      "text": "The only evidence item in the packet is an unread, publisher-supplied bibliographic reference to an academic paper on knowledge graphs, flagged explicitly as 'not verified company evidence' and of user-supplied provenance — providing no evidentiary basis for any investment claim about Nova AI.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's stated focus on autonomous workflow automation agents, making even indirect relevance speculative.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The bull case claims of a 'proprietary fine-tuning pipeline moat,' 'Fortune 500 contracts signed pre-launch,' and '+340% YoY growth' are entirely unverified assertions from company context, with zero independent corroborating evidence supplied.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The AI recommendation of 'Strong Buy' with a top-2% pipeline ranking cannot be validated from the available evidence and may reflect over-reliance on founder brand rather than verified operational or technical facts.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The financial due diligence track explicitly failed due to an evidence integrity error, meaning no verified financial analysis has been completed — leaving the $2.4M ARR and $80M valuation claims entirely unscrutinized.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide independently verifiable evidence of the Fortune 500 contracts — such as redacted signed agreements, customer-permissioned references, or third-party press releases — before any investment decision proceeds?",
+                    "What is the methodology and data source behind the AI 'Strong Buy' recommendation and top-2% pipeline ranking, and has it been audited for founder-pedigree bias?",
+                    "Can audited or accountant-reviewed financial statements be obtained to independently verify the $2.4M ARR, +340% YoY growth, and the basis for the $80M valuation?"
+                  ]
+                },
+                {
+                  "id": "portfolio",
+                  "status": "complete",
+                  "summary": "Portfolio monitoring for Nova AI is severely constrained by evidence gaps. The sole evidence item is an unread, user-supplied bibliographic reference to an academic paper on knowledge graphs — not verified company evidence. All concentration and trigger-monitoring inputs (ARR trajectory, contract milestones, burn rate, competitive positioning) rely entirely on unverified company-supplied assertions. No independent data exists to establish meaningful monitoring baselines or trigger thresholds at this time.",
+                  "claims": [
+                    {
+                      "text": "The only evidence item in Nova AI's packet is a publisher-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — providing no basis for portfolio monitoring metrics.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The financial due diligence track failed due to an evidence integrity error, meaning no verified financial baseline exists against which to monitor the claimed $2.4M ARR, +340% YoY growth, or $80M valuation for concentration risk purposes.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's autonomous workflow automation focus, and no connection to the company's product roadmap or competitive positioning has been established by available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Key follow-up triggers — such as Fortune 500 contract execution, revenue milestone verification, and IP moat substantiation — cannot be set with confidence because every underlying claim originates from unverified company context with zero independent corroboration in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The 200+ competitor risk flag in the company profile and the AI 'Strong Buy' recommendation are both unsubstantiated by independent evidence, making portfolio concentration decisions based on either signal premature and potentially unreliable.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide audited or accountant-reviewed financial statements confirming the $2.4M ARR and +340% YoY growth, to establish verified baselines for ongoing portfolio monitoring and trigger thresholds?",
+                    "Can executed or redacted Fortune 500 customer contracts be made available under NDA to confirm contract value, milestone schedules, and renewal terms — critical inputs for concentration and revenue-risk monitoring?",
+                    "What reporting cadence and information rights are stipulated in the Series A term sheet, and can the portfolio team obtain quarterly board observer rights to enable timely monitoring of burn rate, headcount, and revenue trajectory?"
+                  ]
+                },
+                {
+                  "id": "partner",
+                  "status": "complete",
+                  "summary": "Nova AI presents a compelling surface-level investment narrative — strong founder pedigree, early Fortune 500 traction, and rapid ARR growth — but every material claim in the bull case is drawn exclusively from unverified, company-supplied context. The sole evidence item in the packet is an unread academic bibliographic reference to AI-driven knowledge graphs, flagged explicitly as a user-supplied research lead and not verified company evidence. Across all seven analyst tracks, no independent corroboration exists for any financial, technical, legal, or founder claim. The investment case cannot be meaningfully evaluated in its current state; proceeding without substantial additional verified evidence would represent an unacceptable due diligence gap.",
+                  "claims": [
+                    {
+                      "text": "The only item in the evidence packet is a publisher-supplied bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search, explicitly flagged as a research lead and not verified company evidence — it has not been independently read or assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially adjacent to Nova AI's stated focus on autonomous workflow automation agents; no connection between this paper and Nova AI's product, founders, or IP has been established by any available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "All core bull case claims — including the $2.4M ARR, +340% YoY growth, $80M valuation, Fortune 500 pre-launch contracts, proprietary fine-tuning moat, and founder credentials — are entirely unverified assertions from company-supplied context with zero independent corroboration in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Potential IP encumbrances arising from founders' prior employment at DeepMind and OpenAI — including non-compete, IP assignment, and non-solicitation obligations — represent a material legal risk that cannot be assessed from available evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The AI 'Strong Buy' recommendation and top-2% pipeline ranking cannot be validated from available evidence and may reflect founder-pedigree bias rather than verified operational or technical facts.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide audited or accountant-reviewed financial statements — including a customer-level ARR schedule with contract start dates and values — to independently verify the $2.4M ARR, +340% YoY growth, and the basis for the $80M valuation before any investment decision proceeds?",
+                    "Can executed or redacted Fortune 500 customer contracts, founder IP assignment agreements, and prior employer separation agreements be made available under NDA for review by qualified legal counsel to assess contract validity and IP freedom-to-operate?",
+                    "Can verifiable evidence of founder credentials — such as employment confirmation, published research, patent filings, or named references from DeepMind and OpenAI leadership — along with documentation of the claimed three prior exits, be supplied to corroborate the founding team's track record?"
+                  ]
+                }
+              ],
+              "completedAt": "2026-09-26T20:59:30.205Z"
+            },
+            {
+              "id": "639d2775-d798-4156-8b0c-bac81d92791a",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:57:50.199Z",
+              "mode": "ai",
+              "status": "partial",
+              "evidence": [
+                {
+                  "id": "be6412ae-ea6b-4063-9942-d2fde38220ff",
+                  "companyId": "nova-ai",
+                  "title": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI",
+                  "body": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI\nSource: Crossref · International Journal of Science and Research\nPublished: 2025-05-26\nRetrieved: 2026-09-26T20:51:10.327Z\nPublisher-supplied bibliographic metadata. The full paper has not been read or independently assessed.\nSaved as a research lead, not verified company evidence.",
+                  "url": "https://doi.org/10.21275/sr25521024520",
+                  "createdAt": "2026-09-26T20:53:03.306Z",
+                  "provenance": "user-supplied"
+                }
+              ],
+              "agents": [
+                {
+                  "id": "market",
+                  "status": "complete",
+                  "summary": "Evidence is insufficient to support meaningful market analysis for Nova AI. The single available evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs for enterprise search, which is only loosely related to Nova AI's autonomous workflow automation focus. No market sizing data, competitive landscape analysis, or demand signals from verified sources are present in the evidence packet. All company context is provided as sample/fictional data and cannot be treated as verified fact.",
+                  "claims": [
+                    {
+                      "text": "The available evidence references academic work on AI-driven knowledge graphs for enterprise search, suggesting growing research interest in AI applications for enterprise environments broadly — a space adjacent to Nova AI's stated focus.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The evidence item is flagged as 'publisher-supplied bibliographic metadata' with the full paper not read or independently assessed, meaning its substantive findings cannot be relied upon.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The evidence item is marked as 'user-supplied' provenance and 'saved as a research lead, not verified company evidence,' limiting its evidentiary weight for investment analysis.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Whether Nova AI's $47B TAM, competitive differentiation, or 200+ competitor risk claims are substantiated cannot be determined from the available evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can verified third-party market research reports (e.g., Gartner, IDC) be sourced to validate the $47B TAM and competitive density claims for enterprise AI workflow automation?",
+                    "What independent evidence exists to confirm the Fortune 500 pre-launch contracts referenced in the company profile — such as signed LOIs, press releases, or customer references?",
+                    "Has the full text of the referenced academic paper been reviewed, and are there additional peer-reviewed or industry sources that directly benchmark demand for autonomous AI agents in enterprise workflows?"
+                  ]
+                },
+                {
+                  "id": "technical",
+                  "status": "complete",
+                  "summary": "The evidence packet for Nova AI contains only a single user-supplied research lead — a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search. This paper has not been independently assessed and is not verified company evidence. No technical documentation, product architecture details, IP filings, or engineering artifacts for Nova AI have been provided. Meaningful technical due diligence on Nova AI's architecture and defensibility cannot be performed from this evidence alone.",
+                  "claims": [
+                    {
+                      "text": "A research lead referencing an academic paper on AI-driven knowledge graphs for enterprise search was saved in Nova AI's evidence packet, but the full paper has not been read or independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The saved research lead is classified as user-supplied provenance, meaning it has not been verified as directly relevant to Nova AI's proprietary technology or product.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "If Nova AI's workflow automation platform incorporates knowledge graph techniques for enterprise search, this academic literature could be contextually relevant — but no such connection has been established by the available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The technical basis for the claimed 'proprietary fine-tuning pipeline' moat is entirely unsubstantiated by the evidence provided.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "No technical documentation, architecture diagrams, patent filings, or engineering references specific to Nova AI have been supplied in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide technical documentation or a whitepaper describing the architecture and differentiation of their proprietary fine-tuning pipeline?",
+                    "Are there any patent applications, IP filings, or trade secret disclosures that substantiate the claimed durable technical moat?",
+                    "What is the specific connection, if any, between the knowledge graph research lead and Nova AI's actual product — was this saved as a competitive reference, inspiration, or evidence of internal R&D?"
+                  ]
+                },
+                {
+                  "id": "financial",
+                  "status": "failed",
+                  "error": "A claim is missing its evidence reference."
+                },
+                {
+                  "id": "legal",
+                  "status": "complete",
+                  "summary": "The legal evidence packet for Nova AI is critically insufficient. The sole evidence item is a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs, flagged as user-supplied and not independently verified. No IP filings, contracts, founder assignment agreements, employment/non-compete documentation, or licensing records have been provided. Legal due diligence cannot be meaningfully conducted on the available evidence alone.",
+                  "claims": [
+                    {
+                      "text": "The only evidence item in the packet is a publisher-supplied bibliographic reference to an academic paper; the full paper has not been read or independently assessed, and it is explicitly marked as a research lead rather than verified company evidence.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper references AI-driven knowledge graphs for enterprise search; if Nova AI's product incorporates such techniques, questions of IP ownership, prior art, and potential licensing obligations may arise — but no connection between this paper and Nova AI's IP has been established by the evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "No patent applications, trade secret disclosures, IP assignment agreements, founder IP contribution records, or third-party licensing contracts for Nova AI have been supplied in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The company profile references Fortune 500 contracts signed pre-launch, but no executed agreements, letters of intent, or legal instruments have been provided to verify the existence, terms, or enforceability of these contracts.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Given that key founders are described as former DeepMind and OpenAI employees, potential IP encumbrances from prior employer agreements (non-competes, IP assignment clauses, non-solicitation) represent an unverified legal risk that cannot be assessed from the available evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide copies of all founder IP assignment agreements, prior employer separation agreements, and any non-compete or non-solicitation obligations that could encumber the company's core technology — for review by qualified counsel?",
+                    "Have any patent applications been filed for the proprietary fine-tuning pipeline, and if so, can application numbers, filing dates, and prosecution status be disclosed to assess IP ownership and freedom-to-operate?",
+                    "Can executed copies of the referenced Fortune 500 customer contracts be made available under NDA for legal review, including confirmation of governing law, termination rights, data ownership provisions, and liability caps?"
+                  ]
+                },
+                {
+                  "id": "founder",
+                  "status": "complete",
+                  "summary": "The founder evidence for Nova AI is insufficient for meaningful due diligence. The sole evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs — user-supplied, unverified, and not directly linked to either founder. Claimed credentials for Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, built GPT-4 fine-tuning infra) are drawn entirely from unverified company context and cannot be corroborated from the available evidence packet.",
+                  "claims": [
+                    {
+                      "text": "The only item in the evidence packet is a user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, which is not linked to either founder and has not been independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The paper's subject matter — AI-driven knowledge graphs for enterprise search — is tangentially related to Nova AI's stated domain, but no connection to the founders' specific work or authorship has been established by the available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The claimed credentials of Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, GPT-4 fine-tuning infrastructure) are entirely unverified — no employment records, publications, or third-party confirmations are present in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The claim of '3 prior exits' attributed to the founding team in the company profile cannot be assessed, as no deal records, press releases, or corroborating documentation are available in the evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "No founder-linked artifacts such as academic publications, conference presentations, patent filings, or verifiable employment histories have been supplied, making execution track record assessment impossible from current evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can verifiable LinkedIn profiles, employment confirmation letters, or references from DeepMind and OpenAI leadership be provided to corroborate the founders' stated roles and tenures?",
+                    "What documentation exists to substantiate the '3 prior exits' claim — such as CrunchBase records, press releases, or acquisition announcements naming the founders?",
+                    "Are there any published papers, patents, or public technical contributions (e.g., GitHub, arXiv) attributable to Sarah Chen or Marcus Webb that would independently validate their claimed technical expertise?"
+                  ]
+                },
+                {
+                  "id": "skeptic",
+                  "status": "complete",
+                  "summary": "From a skeptic's standpoint, Nova AI's investment case rests almost entirely on unverified company-supplied assertions. The single evidence item in the packet is a loosely related academic bibliographic reference that has not been read, assessed, or tied to Nova AI's actual product. Every key bull case claim — proprietary moat, Fortune 500 contracts, founder pedigree, and ARR growth — is unsubstantiated by independent evidence. The risk of confirmation bias in the AI recommendation is high given the evidence gap.",
+                  "claims": [
+                    {
+                      "text": "The only evidence item in the packet is an unread, publisher-supplied bibliographic reference to an academic paper on knowledge graphs, flagged explicitly as 'not verified company evidence' and of user-supplied provenance — providing no evidentiary basis for any investment claim about Nova AI.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's stated focus on autonomous workflow automation agents, making even indirect relevance speculative.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The bull case claims of a 'proprietary fine-tuning pipeline moat,' 'Fortune 500 contracts signed pre-launch,' and '+340% YoY growth' are entirely unverified assertions from company context, with zero independent corroborating evidence supplied.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The AI recommendation of 'Strong Buy' with a top-2% pipeline ranking cannot be validated from the available evidence and may reflect over-reliance on founder brand rather than verified operational or technical facts.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The financial due diligence track explicitly failed due to an evidence integrity error, meaning no verified financial analysis has been completed — leaving the $2.4M ARR and $80M valuation claims entirely unscrutinized.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide independently verifiable evidence of the Fortune 500 contracts — such as redacted signed agreements, customer-permissioned references, or third-party press releases — before any investment decision proceeds?",
+                    "What is the methodology and data source behind the AI 'Strong Buy' recommendation and top-2% pipeline ranking, and has it been audited for founder-pedigree bias?",
+                    "Can audited or accountant-reviewed financial statements be obtained to independently verify the $2.4M ARR, +340% YoY growth, and the basis for the $80M valuation?"
+                  ]
+                },
+                {
+                  "id": "portfolio",
+                  "status": "complete",
+                  "summary": "Portfolio monitoring for Nova AI is severely constrained by evidence gaps. The sole evidence item is an unread, user-supplied bibliographic reference to an academic paper on knowledge graphs — not verified company evidence. All concentration and trigger-monitoring inputs (ARR trajectory, contract milestones, burn rate, competitive positioning) rely entirely on unverified company-supplied assertions. No independent data exists to establish meaningful monitoring baselines or trigger thresholds at this time.",
+                  "claims": [
+                    {
+                      "text": "The only evidence item in Nova AI's packet is a publisher-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — providing no basis for portfolio monitoring metrics.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The financial due diligence track failed due to an evidence integrity error, meaning no verified financial baseline exists against which to monitor the claimed $2.4M ARR, +340% YoY growth, or $80M valuation for concentration risk purposes.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's autonomous workflow automation focus, and no connection to the company's product roadmap or competitive positioning has been established by available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Key follow-up triggers — such as Fortune 500 contract execution, revenue milestone verification, and IP moat substantiation — cannot be set with confidence because every underlying claim originates from unverified company context with zero independent corroboration in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The 200+ competitor risk flag in the company profile and the AI 'Strong Buy' recommendation are both unsubstantiated by independent evidence, making portfolio concentration decisions based on either signal premature and potentially unreliable.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide audited or accountant-reviewed financial statements confirming the $2.4M ARR and +340% YoY growth, to establish verified baselines for ongoing portfolio monitoring and trigger thresholds?",
+                    "Can executed or redacted Fortune 500 customer contracts be made available under NDA to confirm contract value, milestone schedules, and renewal terms — critical inputs for concentration and revenue-risk monitoring?",
+                    "What reporting cadence and information rights are stipulated in the Series A term sheet, and can the portfolio team obtain quarterly board observer rights to enable timely monitoring of burn rate, headcount, and revenue trajectory?"
+                  ]
+                },
+                {
+                  "id": "partner",
+                  "status": "complete",
+                  "summary": "Nova AI presents a compelling narrative — elite founder pedigree, proprietary technical moat, Fortune 500 traction, and strong ARR growth — but the entire investment case rests on unverified company-supplied assertions. The sole evidence item in the packet is an unread, user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs that has no confirmed connection to Nova AI's product. Every critical bull case claim is unsubstantiated, the financial due diligence track failed outright, and no independent corroboration exists across technical, legal, market, or founder dimensions. The opportunity may be real, but the evidence base is currently insufficient to support a conviction investment decision.",
+                  "claims": [
+                    {
+                      "text": "The only item in Nova AI's evidence packet is a publisher-supplied bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search, explicitly flagged as a research lead and not verified company evidence, with the full paper not read or independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's stated focus on autonomous workflow automation agents, and no connection between this paper and Nova AI's actual product, IP, or founders has been established by the available evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The core bull case claims — proprietary fine-tuning pipeline moat, Fortune 500 pre-launch contracts, $2.4M ARR with +340% YoY growth, and founder credentials including 3 prior exits — are entirely unverified, with zero independent corroborating evidence supplied in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The financial due diligence track failed due to an evidence integrity error, meaning no verified financial analysis has been completed and the $80M valuation has not been independently scrutinized.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Potential IP encumbrances from prior employer agreements at DeepMind and OpenAI, freedom-to-operate on the claimed fine-tuning pipeline, and the legal enforceability of referenced Fortune 500 contracts all remain entirely unassessed due to absence of relevant legal documents in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide audited or accountant-reviewed financial statements confirming the $2.4M ARR and +340% YoY growth, alongside executed or redacted Fortune 500 customer contracts under NDA, to establish an independent factual baseline before any investment decision proceeds?",
+                    "Can verifiable founder credentials be supplied — including employment confirmation from DeepMind and OpenAI leadership, documentation of the 3 prior exits, and any published papers or patents attributable to Sarah Chen or Marcus Webb — to corroborate the pedigree central to the bull case?",
+                    "Can Nova AI disclose all founder IP assignment agreements, prior employer separation terms, and any patent filings or technical whitepapers describing the proprietary fine-tuning pipeline, for review by qualified counsel and technical advisors?"
+                  ]
+                }
+              ],
+              "completedAt": "2026-09-26T20:58:44.431Z"
+            },
+            {
+              "id": "e929d57a-09ab-4225-931d-c6971b55eb6c",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:55:32.542Z",
+              "mode": "ai",
+              "status": "partial",
+              "evidence": [
+                {
+                  "id": "be6412ae-ea6b-4063-9942-d2fde38220ff",
+                  "companyId": "nova-ai",
+                  "title": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI",
+                  "body": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI\nSource: Crossref · International Journal of Science and Research\nPublished: 2025-05-26\nRetrieved: 2026-09-26T20:51:10.327Z\nPublisher-supplied bibliographic metadata. The full paper has not been read or independently assessed.\nSaved as a research lead, not verified company evidence.",
+                  "url": "https://doi.org/10.21275/sr25521024520",
+                  "createdAt": "2026-09-26T20:53:03.306Z",
+                  "provenance": "user-supplied"
+                }
+              ],
+              "agents": [
+                {
+                  "id": "market",
+                  "status": "complete",
+                  "summary": "Evidence for Nova AI is critically insufficient for market analysis. The single supplied document concerns AI-driven knowledge graphs for enterprise search and is flagged as unverified, publisher-supplied bibliographic metadata — not company-specific evidence. No demand data, competitive landscape detail, or market timing signals for Nova AI can be responsibly derived from this evidence packet.",
+                  "claims": [
+                    {
+                      "text": "The evidence packet contains only one document, a bibliographic reference to an academic paper on AI knowledge graphs for enterprise search, which is not verified company evidence and has not been independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The document's focus on knowledge graph-based enterprise search is adjacent to but not directly confirmatory of Nova AI's autonomous workflow automation use case, suggesting only loose thematic overlap.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Nova AI's stated risk of 200+ competitors in AI automation cannot be validated, quantified, or contextualized using the supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Nova AI's reported $2.4M ARR, 340% YoY growth, and Fortune 500 pre-launch contracts are unverified by any supplied evidence document.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Market sizing figures (TAM $47B, SAM $8B, SOM $400M) provided in the company context have no supporting source in the evidence packet and cannot be assessed.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide independently verified ARR documentation and signed contract evidence to substantiate the $2.4M ARR and Fortune 500 claims?",
+                    "What primary market research or third-party analyst reports support the $47B TAM and competitive landscape assumptions, and can these be supplied as verified evidence?",
+                    "Has a structured competitive analysis been conducted mapping Nova AI's differentiation against the 200+ cited competitors, and is that available for review?"
+                  ]
+                },
+                {
+                  "id": "technical",
+                  "status": "complete",
+                  "summary": "The evidence packet for Nova AI contains only a single user-supplied research lead — an academic paper on AI-driven knowledge graphs for enterprise search, retrieved from Crossref. This paper has not been independently read or assessed, and it has not been verified as directly connected to Nova AI's technology or product. No technical architecture documentation, code repositories, patent filings, or engineering-specific company materials are present. Accordingly, a substantive technical assessment of Nova AI's architecture, fine-tuning pipeline, or defensibility cannot be made from the available evidence alone.",
+                  "claims": [
+                    {
+                      "text": "A paper titled 'AI-Driven Knowledge Graphs for Enterprise Search' was saved as a research lead associated with Nova AI, but it is explicitly flagged as unverified company evidence and the full paper has not been read or independently assessed.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The research lead was user-supplied rather than sourced through independent retrieval, reducing its evidentiary weight for technical due diligence purposes.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "If Nova AI's product incorporates knowledge graph techniques for enterprise search or workflow automation, this academic area could be relevant to evaluating their technical approach — but no direct link has been established.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The claim that Nova AI possesses a proprietary fine-tuning pipeline constituting a durable moat (per company context) is unsubstantiated by any supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Key technical defensibility factors — including patent filings, model architecture details, infrastructure design, and data provenance — are absent from the current evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide technical documentation or a whitepaper describing their proprietary fine-tuning pipeline, including what makes it differentiated from publicly available methods?",
+                    "Is the knowledge graph research lead directly cited by or affiliated with Nova AI's team or product, or was it included for general market context — and can the full paper be reviewed?",
+                    "What data assets, proprietary datasets, or exclusive data agreements underpin Nova AI's model training, and can these be independently verified through data room access?"
+                  ]
+                },
+                {
+                  "id": "financial",
+                  "status": "failed",
+                  "error": "A claim is missing its evidence reference."
+                },
+                {
+                  "id": "legal",
+                  "status": "complete",
+                  "summary": "The evidence packet for Nova AI contains only a single user-supplied, unverified bibliographic reference to an academic paper on AI knowledge graphs. No IP filings, employment agreements, customer contracts, founder departure agreements, or company-specific legal documentation are present. A substantive legal due diligence assessment cannot be responsibly conducted from this evidence alone. All material legal claims below are flagged as unknown pending verified documentation.",
+                  "claims": [
+                    {
+                      "text": "The sole document in the evidence packet is a user-supplied, unverified bibliographic metadata record for an academic paper on AI-driven knowledge graphs; it has not been independently assessed and is explicitly not verified company evidence.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "If Nova AI's product incorporates knowledge graph techniques referenced in this academic paper, counsel should assess whether any academic institution or prior employer holds IP claims over related methods used in Nova AI's product, particularly given founders' backgrounds at DeepMind and OpenAI.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Nova AI's claim of signed Fortune 500 enterprise contracts pre-launch is unverified — no contracts, NDAs, MSAs, or SOWs are present in the evidence packet for legal review.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The existence, scope, and ownership of any patent filings or trade secret protections covering Nova AI's claimed proprietary fine-tuning pipeline cannot be assessed from the available evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Founder IP assignment agreements, non-compete or non-solicitation obligations owed to prior employers (DeepMind, OpenAI), and clean IP chain-of-title documentation are absent from the evidence packet and unverifiable at this stage.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide executed IP assignment agreements for all founders and key employees, and counsel-reviewed opinions confirming no conflicting IP obligations to DeepMind, OpenAI, or any academic institution?",
+                    "Can redacted copies of the claimed Fortune 500 enterprise contracts be made available in a data room for legal review of key terms including IP ownership, liability caps, termination rights, and exclusivity provisions?",
+                    "Has Nova AI conducted a freedom-to-operate analysis and filed or applied for patents covering its fine-tuning pipeline, and can those filings or a legal IP landscape memo be supplied for independent counsel review?"
+                  ]
+                },
+                {
+                  "id": "founder",
+                  "status": "complete",
+                  "summary": "Founder background claims for Nova AI — including Sarah Chen's purported role as Ex-DeepMind Research Lead with a PhD from MIT and Marcus Webb's role building GPT-4 fine-tuning infrastructure at OpenAI — cannot be verified from the supplied evidence. The sole evidence document is an unrelated academic bibliographic reference on AI knowledge graphs that has not been independently assessed and has no confirmed connection to either founder. No LinkedIn profiles, publication records, employment verifications, or prior exit documentation are present in the evidence packet. Founder quality, prior exits, and institutional affiliations are entirely unsubstantiated by available evidence.",
+                  "claims": [
+                    {
+                      "text": "The only supplied evidence document is a bibliographic reference to an academic paper on AI-driven knowledge graphs for enterprise search, flagged explicitly as unverified and saved as a research lead, not verified company evidence — it contains no information about Nova AI's founders.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The claims that Sarah Chen was an Ex-DeepMind Research Lead with a PhD from MIT and that Marcus Webb built GPT-4 fine-tuning infrastructure at OpenAI are drawn solely from company-supplied context and are unverifiable from the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The assertion that the founding team has three prior exits — cited as a key bull case — has no corroborating documentation in the evidence packet and cannot be assessed.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "If the academic paper on knowledge graphs was authored or co-authored by either founder, it could serve as partial evidence of research credibility, but no authorship link between the paper and Nova AI's founders has been established.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Founder execution track record — including prior company outcomes, roles held, tenure, and verifiable contributions at DeepMind or OpenAI — is entirely absent from the supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide independently verifiable employment records, LinkedIn profiles, or reference contacts confirming Sarah Chen's tenure and role at DeepMind and Marcus Webb's specific contributions to GPT-4 infrastructure at OpenAI?",
+                    "What documentation exists for the three prior founder exits — including company names, exit amounts, and founder roles — that can be cross-referenced against public records or cap table histories?",
+                    "Is the academic knowledge graph paper associated with either founder as an author or contributor, and can the full paper and author affiliations be reviewed to assess research credibility?"
+                  ]
+                },
+                {
+                  "id": "skeptic",
+                  "status": "failed",
+                  "error": "A claim is missing its evidence reference."
+                },
+                {
+                  "id": "portfolio",
+                  "status": "complete",
+                  "summary": "Portfolio monitoring for Nova AI is severely constrained by evidence insufficiency. The sole document in the evidence packet is an unverified academic bibliographic reference on AI knowledge graphs with no confirmed link to Nova AI's operations, financials, or team. Across all completed analyst workstreams — market, technical, legal, and founder — every material company claim (ARR, growth, Fortune 500 contracts, founder backgrounds, proprietary moat) remains unsubstantiated. Two analyst workstreams (financial, skeptic) failed outright due to evidentiary gaps. Concentration risk is elevated: no verified milestone data exists to anchor monitoring triggers or support current $80M valuation assumptions.",
+                  "claims": [
+                    {
+                      "text": "The sole evidence document is a user-supplied, unverified bibliographic metadata record for an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — it contains no Nova AI-specific operational, financial, or team information.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "All five analyst workstreams identified the same evidentiary vacuum; two workstreams (financial and skeptic) failed to produce outputs, indicating the evidence packet is structurally insufficient to support standard portfolio monitoring protocols.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Nova AI's reported $2.4M ARR, 340% YoY growth, $80M valuation, and pre-launch Fortune 500 contracts — which underpin the investment thesis — are entirely unverified by any supplied evidence and cannot serve as confirmed monitoring benchmarks.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Founder credential claims (DeepMind, OpenAI, MIT PhD, 3 prior exits) and the proprietary fine-tuning moat assertion have no corroborating documentation in the evidence packet, leaving key conviction drivers for the Series A unvalidated.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "IP chain-of-title risk — particularly potential conflicting obligations to DeepMind, OpenAI, or academic institutions — has been flagged by the legal workstream as unassessable without verified founder IP assignment agreements and freedom-to-operate analysis.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide verified ARR documentation, signed Fortune 500 contract redactions, and audited financials to establish confirmed monitoring benchmarks before any follow-on capital decision?",
+                    "Can the team supply founder IP assignment agreements, employment verification for DeepMind and OpenAI tenures, and a freedom-to-operate legal memo to close the IP chain-of-title and credential gaps flagged across legal and founder workstreams?",
+                    "What structured milestone triggers (e.g., ARR thresholds, customer count, churn rates) has the firm established for Nova AI given the 94 match score and Series A entry, and are these memorialized in the investment monitoring agreement?"
+                  ]
+                },
+                {
+                  "id": "partner",
+                  "status": "complete",
+                  "summary": "Nova AI presents a compelling Series A narrative — elite founder pedigree, proprietary fine-tuning moat, Fortune 500 traction, and 340% ARR growth — but the entire investment thesis rests on unverified company-supplied claims. The sole evidence document is an unrelated, unassessed academic bibliographic reference on AI knowledge graphs. Every material conviction driver — financials, founder credentials, technical moat, contracts, and IP chain-of-title — remains unsubstantiated. Two analyst workstreams failed outright due to evidence gaps, and no monitoring benchmarks can be responsibly established at this stage. The opportunity may be real, but the current evidence packet is structurally insufficient to support a capital decision.",
+                  "claims": [
+                    {
+                      "text": "The only document in the evidence packet is a user-supplied, unverified bibliographic metadata record for an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — it contains no Nova AI-specific financial, operational, or team information.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's focus on knowledge graph-based enterprise search is thematically adjacent to Nova AI's workflow automation use case, but no direct link between the paper and Nova AI's product, founders, or technical approach has been established.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Nova AI's $2.4M ARR, 340% YoY growth, $80M valuation, and pre-launch Fortune 500 signed contracts — the core of the bull case — are entirely unverified by any supplied evidence and cannot serve as confirmed investment or monitoring anchors.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Founder credential claims (DeepMind Research Lead, OpenAI GPT-4 infrastructure, MIT PhD, three prior exits) and the proprietary fine-tuning moat assertion have no corroborating documentation in the evidence packet, leaving the primary conviction drivers for this Series A unvalidated.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "IP chain-of-title risk — including potential conflicting IP obligations to DeepMind, OpenAI, or academic institutions — is flagged as unassessable without verified founder IP assignment agreements and a freedom-to-operate analysis, representing a material latent risk to the investment.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide audited financials, signed Fortune 500 contract redactions, and independent ARR verification to substantiate the $2.4M ARR, 340% growth, and enterprise traction claims before any capital commitment?",
+                    "Can the founding team supply independently verifiable employment records for DeepMind and OpenAI tenures, documentation of three prior exits, and executed IP assignment agreements with counsel-reviewed opinions confirming no conflicting obligations to prior employers or academic institutions?",
+                    "Has Nova AI conducted a freedom-to-operate analysis and filed patents covering its proprietary fine-tuning pipeline, and can those filings or a legal IP landscape memo be provided for independent qualified counsel review?"
+                  ]
+                }
+              ],
+              "completedAt": "2026-09-26T20:56:31.029Z"
+            },
+            {
+              "id": "1aef5d3b-05e1-46d7-8d6f-fb13ea1669b4",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:53:20.411Z",
+              "mode": "ai",
+              "status": "partial",
+              "evidence": [
+                {
+                  "id": "be6412ae-ea6b-4063-9942-d2fde38220ff",
+                  "companyId": "nova-ai",
+                  "title": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI",
+                  "body": "AI-Driven Knowledge Graphs for Enterprise Search - Enhancing Enterprise-Wide Search and Recommendations with AI\nSource: Crossref · International Journal of Science and Research\nPublished: 2025-05-26\nRetrieved: 2026-09-26T20:51:10.327Z\nPublisher-supplied bibliographic metadata. The full paper has not been read or independently assessed.\nSaved as a research lead, not verified company evidence.",
+                  "url": "https://doi.org/10.21275/sr25521024520",
+                  "createdAt": "2026-09-26T20:53:03.306Z",
+                  "provenance": "user-supplied"
+                }
+              ],
+              "agents": [
+                {
+                  "id": "market",
+                  "status": "complete",
+                  "summary": "Nova AI operates in enterprise workflow automation, a segment showing active research interest in AI-driven enterprise tools (e.g., knowledge graphs for search). However, the single evidence item is a bibliographic metadata record from an academic journal—not verified company evidence—and covers adjacent technology (knowledge graphs/enterprise search) rather than Nova AI's core autonomous agent offering. Evidence is insufficient to draw strong market conclusions; the company context itself remains the primary data source, which must be treated as sample/fictional.",
+                  "claims": [
+                    {
+                      "text": "There is active academic research activity in AI applications for enterprise workflows as of mid-2025, suggesting continued market-level interest in the broader space Nova AI targets.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The evidence item covers AI-driven knowledge graphs for enterprise search—an adjacent but distinct technology from autonomous workflow automation agents—limiting its direct applicability to Nova AI's competitive positioning.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The crowded competitive landscape (200+ noted competitors per company context) is not corroborated, contradicted, or quantified by any supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Nova AI's $47B TAM and $2.4M ARR figures are unverified by any independent evidence in the supplied packet and derive solely from the company context provided.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The single evidence source is flagged as publisher-supplied bibliographic metadata with the full paper unread and explicitly saved as a 'research lead, not verified company evidence,' materially limiting evidentiary weight.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    }
+                  ],
+                  "questions": [
+                    "Can independent third-party market research (e.g., Gartner, IDC) corroborate the $47B TAM for enterprise AI workflow automation and validate the 200+ competitor count with named players?",
+                    "What is Nova AI's documented differentiation from the nearest competitors in autonomous agent orchestration—specifically, is there auditable evidence of the proprietary fine-tuning pipeline's performance vs. alternatives?",
+                    "Are the Fortune 500 enterprise contracts referenced in the company context signed, binding agreements with disclosed ARR contribution, and can contract terms or customer references be independently verified before the next funding decision?"
+                  ]
+                },
+                {
+                  "id": "technical",
+                  "status": "complete",
+                  "summary": "Evidence for Nova AI is critically thin. The single supplied document is an academic paper on AI-driven knowledge graphs for enterprise search, published in an external journal with no demonstrated connection to Nova AI. It was flagged at ingestion as a research lead, not verified company evidence. No technical documentation, architecture specs, customer contracts, financial records, or founder-attributed materials were provided. A meaningful technical assessment of Nova AI's architecture or defensibility cannot be made from this evidence packet alone.",
+                  "claims": [
+                    {
+                      "text": "The evidence packet contains one item, which is an academic paper on AI-driven knowledge graphs for enterprise search sourced from the International Journal of Science and Research via Crossref; it carries no attribution to Nova AI and was saved explicitly as 'a research lead, not verified company evidence.'",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's topic — knowledge graphs for enterprise search and recommendations — is thematically adjacent to enterprise workflow automation, but no link between the paper's content and Nova AI's actual product architecture has been established in the supplied evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Whether Nova AI's claimed proprietary fine-tuning pipeline constitutes a durable technical moat cannot be assessed — no architecture documentation, patent filings, technical whitepapers, or independent code/system audits were supplied.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The founding team credentials (ex-DeepMind, ex-OpenAI, GPT-4 fine-tuning infrastructure) cited in the company context are unverified by any supplied evidence document.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "No customer contract details, technical integration documentation, or independent validation of the reported $2.4M ARR or Fortune 500 pre-launch contracts appear anywhere in the supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide technical documentation (architecture diagrams, model cards, or a third-party audit) that substantiates the proprietary fine-tuning pipeline and differentiates it from commodity fine-tuning services offered by hyperscalers?",
+                    "Are there executed customer contracts, SOWs, or independently verifiable usage metrics that confirm the Fortune 500 relationships and $2.4M ARR figure cited in the company profile?",
+                    "What is the provenance of the knowledge-graph academic paper in this evidence packet — was it submitted by Nova AI as evidence of their research output, or is it purely background market research with no direct company attribution?"
+                  ]
+                },
+                {
+                  "id": "financial",
+                  "status": "failed",
+                  "error": "Analysis failed or returned unsupported citations. Retry with a new review."
+                },
+                {
+                  "id": "legal",
+                  "status": "complete",
+                  "summary": "The legal evidence packet for Nova AI is critically insufficient. The single supplied document is an academic bibliographic metadata record on AI-driven knowledge graphs with no connection to Nova AI's IP, contracts, or legal standing. No patent filings, licensing agreements, employment/non-compete terms, customer contracts, or founder IP assignment documents were provided. All legally material claims in the company context—proprietary fine-tuning pipeline, Fortune 500 contracts, founder backgrounds implying prior employer IP considerations—remain entirely unverified and must be treated as questions for qualified counsel.",
+                  "claims": [
+                    {
+                      "text": "The sole evidence item is explicitly flagged as publisher-supplied bibliographic metadata that has not been read or independently assessed, and was saved as a research lead rather than verified company evidence, rendering it legally inadmissible as support for any IP or contractual claim.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper concerns AI-driven knowledge graphs for enterprise search—a technology adjacent to Nova AI's stated autonomous agent offering—but establishes no documented link to Nova AI's own IP, filings, or research output.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "Whether Nova AI holds enforceable IP rights in its claimed proprietary fine-tuning pipeline—including patent applications, trade secret protections, or invention assignment agreements—cannot be determined from the supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Given founders' prior employment at DeepMind and OpenAI, the risk of prior employer IP ownership claims or restrictive covenant conflicts over the fine-tuning pipeline is a material legal question that is entirely unaddressed in the supplied evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The existence, terms, enforceability, and revenue contribution of the referenced Fortune 500 enterprise contracts are unverified; no executed agreements, SOWs, NDAs, or customer references appear anywhere in the supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI produce executed IP assignment agreements, invention disclosure records, and any patent or trade secret filings covering the proprietary fine-tuning pipeline, together with counsel opinion on freedom-to-operate given founders' prior DeepMind and OpenAI employment obligations?",
+                    "Are the referenced Fortune 500 enterprise contracts fully executed, binding agreements, and can redacted copies or counsel-verified contract summaries be provided to confirm scope, term, termination rights, liability caps, and ARR contribution?",
+                    "Has Nova AI conducted or commissioned a legal audit of potential restrictive covenants, non-solicitation clauses, or IP ownership provisions in founders' prior employment agreements with DeepMind and OpenAI that could encumber the company's core technology assets?"
+                  ]
+                },
+                {
+                  "id": "founder",
+                  "status": "complete",
+                  "summary": "Founder credential verification for Nova AI is not possible from the supplied evidence. The single evidence item is an academic paper on knowledge graphs with no attribution to Sarah Chen, Marcus Webb, or Nova AI, and was explicitly flagged at ingestion as a research lead rather than verified company evidence. Prior analyst outputs consistently flag founder backgrounds (ex-DeepMind, ex-OpenAI, prior exits) as unverified. No LinkedIn profiles, publication records, patent filings, employment confirmations, or founder-attributed materials appear anywhere in the evidence packet. A meaningful founder quality assessment cannot be made from this evidence alone.",
+                  "claims": [
+                    {
+                      "text": "The single supplied evidence item is an academic paper on AI-driven knowledge graphs sourced via Crossref, flagged explicitly as 'a research lead, not verified company evidence,' and carries no attribution to Sarah Chen, Marcus Webb, or Nova AI in any capacity.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The founding team credentials cited in the company context — Sarah Chen as ex-DeepMind Research Lead with a PhD from MIT, and Marcus Webb as ex-OpenAI who built GPT-4 fine-tuning infrastructure — are unverified by any document in the supplied evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The claim of three prior exits attributed to the founding team in the company context bulls section is unverified; no exit records, acquisition announcements, or corroborating third-party sources appear in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The academic paper's subject matter (enterprise search, knowledge graphs) is thematically adjacent to AI/ML enterprise tooling, but no connection between the paper's authorship or content and the Nova AI founders' professional output has been established in the supplied evidence.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "No founder-attributed materials — including publications, patents, conference presentations, GitHub repositories, or employment verification records — were supplied in the evidence packet, making execution history and technical contribution claims unassessable.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI provide independently verifiable documentation of Sarah Chen's and Marcus Webb's employment tenures at DeepMind and OpenAI respectively — such as published research papers, patent co-inventorships, or reference contacts at those organizations — to substantiate the credentials cited in the company profile?",
+                    "What are the specific prior exits attributed to the founding team: company names, roles held, acquirers, and transaction dates that can be cross-referenced against public records or press announcements?",
+                    "Was the knowledge-graph academic paper submitted by Nova AI as evidence of the founders' research output, or is it purely background material with no direct company or founder attribution — and if the former, which founder is a named author?"
+                  ]
+                },
+                {
+                  "id": "skeptic",
+                  "status": "complete",
+                  "summary": "Evidence for Nova AI is critically insufficient to support or falsify any of the bull-case claims. The sole evidence item is an unread academic paper on knowledge graphs with no demonstrated connection to Nova AI, explicitly flagged as unverified. All key investment-thesis pillars—founder credentials, proprietary moat, Fortune 500 contracts, ARR, and TAM—remain entirely unsubstantiated by supplied evidence, and prior analyst outputs confirm the same gap. The skeptical position is that the investment case rests wholly on unverified company-supplied assertions.",
+                  "claims": [
+                    {
+                      "text": "The single evidence item in the packet is explicitly flagged at ingestion as 'a research lead, not verified company evidence,' and covers knowledge graphs for enterprise search—a technology adjacent to but distinct from Nova AI's claimed autonomous agent offering—rendering it non-probative for any Nova AI-specific claim.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The adjacency of the academic paper's topic to enterprise AI suggests at most that the broader space attracts research interest, but this cannot be extrapolated to validate Nova AI's specific market sizing, competitive positioning, or product differentiation.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The proprietary fine-tuning pipeline described as a 'durable moat' is entirely unsubstantiated—no architecture documentation, patent filings, third-party audits, or model performance benchmarks appear anywhere in the supplied evidence.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The Fortune 500 pre-launch contracts, $2.4M ARR, 340% YoY growth, and $80M valuation are unverified by any independent source in the evidence packet; all figures derive solely from the company context, which is self-reported and sample/fictional.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Founder credentials (ex-DeepMind, ex-OpenAI, prior exits) and the competitive landscape claim of 200+ rivals are uncorroborated by any supplied evidence and cannot be treated as established facts for investment purposes.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI produce independently verifiable evidence of the Fortune 500 contracts—such as executed agreements, customer references willing to be contacted, or audited ARR confirmation from an independent accountant—before any investment decision is made?",
+                    "Is there a third-party technical audit, patent filing, or reproducible benchmark that distinguishes Nova AI's fine-tuning pipeline from commodity fine-tuning services offered by hyperscalers (AWS, Azure, Google), thereby substantiating the claimed moat?",
+                    "What is the actual provenance of the knowledge-graph academic paper in this evidence packet—was it submitted by Nova AI as evidence of their own research output, and if not, why is it the only document in a due-diligence packet for a company seeking an $80M valuation?"
+                  ]
+                },
+                {
+                  "id": "portfolio",
+                  "status": "complete",
+                  "summary": "As portfolio manager assessing concentration, monitoring, and follow-up triggers for Nova AI: the evidence base is critically insufficient to support active position sizing or conviction-based concentration. All investment-thesis pillars — founder credentials, proprietary moat, Fortune 500 contracts, ARR, and growth rate — remain entirely unverified by independent evidence. The sole supplied document is an unread academic paper on adjacent technology with no demonstrated link to Nova AI. Until material verification gaps are closed, this position warrants a hard hold on incremental concentration and immediate escalation of structured follow-up triggers.",
+                  "claims": [
+                    {
+                      "text": "The entire evidence packet consists of a single academic bibliographic metadata record on AI-driven knowledge graphs, explicitly flagged at ingestion as 'a research lead, not verified company evidence,' with the full paper unread and no demonstrated connection to Nova AI — rendering the evidence base insufficient to underpin any concentration decision.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's thematic adjacency to enterprise AI tooling provides at most a weak signal of continued market-level research interest in the broader space Nova AI targets, but cannot be extrapolated to validate Nova AI's specific TAM, ARR, growth rate, or competitive positioning.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "All primary concentration-relevant data points — $2.4M ARR, 340% YoY growth, $80M valuation, Fortune 500 pre-launch contracts, proprietary fine-tuning moat, and founder credentials — are unverified by any independent evidence across all prior analyst outputs and cannot be treated as established facts for portfolio sizing purposes.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Material legal and IP risk triggers are entirely unaddressed: the risk of prior employer IP ownership claims from DeepMind or OpenAI over the core fine-tuning pipeline, and the existence and enforceability of the Fortune 500 contracts, remain open questions with no supporting documentation in the evidence packet.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The financial analyst output is in a failed state, meaning no independent financial claims analysis has been completed; this constitutes a monitoring gap that must be resolved before any follow-up investment action.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    }
+                  ],
+                  "questions": [
+                    "Before any incremental concentration or follow-on commitment, can Nova AI deliver an independently audited ARR confirmation, redacted executed Fortune 500 contracts, and founder employment verification (published papers, patent co-inventorships, or named references at DeepMind/OpenAI) — and can these be received and reviewed within a defined 30-day trigger window?",
+                    "Can Nova AI produce IP assignment agreements, freedom-to-operate counsel opinion covering the proprietary fine-tuning pipeline relative to founders' prior DeepMind and OpenAI obligations, and either a third-party technical audit or reproducible benchmark distinguishing their pipeline from hyperscaler commodity fine-tuning — to resolve the single largest moat-validity and legal risk trigger identified across all analyst outputs?",
+                    "What is the corrective action plan for the failed financial analysis output, and can a re-run with verified financial documentation (bank statements, invoicing records, or accountant-prepared revenue schedule) be completed and reviewed before the next portfolio review gate?"
+                  ]
+                },
+                {
+                  "id": "partner",
+                  "status": "complete",
+                  "summary": "Nova AI presents a compelling surface-level investment thesis — elite founding team, rapid ARR growth, Fortune 500 traction, and a claimed proprietary fine-tuning moat — but the evidence packet is critically insufficient to substantiate any of these pillars. The sole supplied document is an unread academic bibliographic metadata record on AI-driven knowledge graphs with no demonstrated connection to Nova AI, explicitly flagged at ingestion as a research lead rather than verified company evidence. Every prior analyst output converges on the same conclusion: the entire investment case rests on unverified, self-reported company context. The financial analysis failed entirely, leaving a structural gap in the review. Until founder credentials, ARR, contracts, IP ownership, and technical differentiation are independently verified, the 87 investment score and 'Strong Buy' AI recommendation cannot be relied upon for a capital decision.",
+                  "claims": [
+                    {
+                      "text": "The sole evidence item in the packet is an academic bibliographic metadata record on AI-driven knowledge graphs for enterprise search, explicitly flagged at ingestion as publisher-supplied metadata with the full paper unread and saved as 'a research lead, not verified company evidence' — rendering the entire evidence base non-probative for any Nova AI-specific investment claim.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "The academic paper's thematic adjacency to enterprise AI tooling provides at most a weak signal of continued market-level research interest in the broader space Nova AI targets, but cannot be extrapolated to validate Nova AI's TAM, ARR, growth rate, competitive positioning, or product architecture.",
+                      "kind": "inference",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    },
+                    {
+                      "text": "All primary investment-thesis pillars — $2.4M ARR, 340% YoY growth, $80M valuation, Fortune 500 pre-launch contracts, proprietary fine-tuning moat, founder credentials (ex-DeepMind, ex-OpenAI, three prior exits), and the 200+ competitor landscape — are entirely unverified by any independent evidence across all prior analyst outputs and must be treated as unsubstantiated company-supplied assertions.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "Material legal and IP risk questions are wholly unaddressed: whether Nova AI holds enforceable IP rights in its fine-tuning pipeline free of prior employer ownership claims from DeepMind or OpenAI, and whether the referenced Fortune 500 contracts are fully executed and binding, cannot be determined from the supplied evidence and constitute the single largest unresolved risk cluster across all analyst outputs.",
+                      "kind": "unknown",
+                      "sourceIds": []
+                    },
+                    {
+                      "text": "The financial analyst output is in a failed state with no corrective action documented, representing a structural monitoring gap that leaves the ARR, revenue schedule, and valuation claims without any completed independent analysis layer.",
+                      "kind": "observation",
+                      "sourceIds": [
+                        "be6412ae-ea6b-4063-9942-d2fde38220ff"
+                      ]
+                    }
+                  ],
+                  "questions": [
+                    "Can Nova AI deliver, within a defined 30-day verification window: independently audited ARR confirmation from an accountant-prepared revenue schedule, redacted executed Fortune 500 contracts with disclosed term and ARR contribution, and founder employment verification via published research papers, patent co-inventorships, or named reference contacts at DeepMind and OpenAI — and can the failed financial analysis be rerun against these verified documents before any investment decision?",
+                    "Can Nova AI produce executed IP assignment agreements, a freedom-to-operate counsel opinion covering the proprietary fine-tuning pipeline relative to founders' prior DeepMind and OpenAI employment obligations, and either a third-party technical audit or reproducible benchmark that distinguishes their pipeline from commodity fine-tuning services offered by hyperscalers — to substantiate the claimed durable moat and resolve the primary legal risk trigger identified across all analyst outputs?",
+                    "What is the actual provenance of the knowledge-graph academic paper as the sole document in this due-diligence packet: was it submitted by Nova AI as evidence of the founders' own research output, and if not, what does the absence of any company-attributed documentation — no architecture specs, no contracts, no founder-linked publications — reveal about the completeness and integrity of the materials Nova AI has provided to this review process?"
+                  ]
+                }
+              ],
+              "completedAt": "2026-09-26T20:54:26.954Z"
+            }
+          ],
+          "forecasts": [],
+          "events": [],
+          "versions": [
+            {
+              "id": "13dbb2e8-fff3-4983-9ebf-54a91ec8d5d1",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:59:30.205Z",
+              "trigger": "AI review · 8/8 perspectives",
+              "body": "Market analyst\nEvidence is insufficient to support meaningful market analysis for Nova AI. The single available evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs for enterprise search, which is only loosely related to Nova AI's autonomous workflow automation focus. No market sizing data, competitive landscape analysis, or demand signals from verified sources are present in the evidence packet. All company context is provided as sample/fictional data and cannot be treated as verified fact.\ninference: The available evidence references academic work on AI-driven knowledge graphs for enterprise search, suggesting growing research interest in AI applications for enterprise environments broadly — a space adjacent to Nova AI's stated focus. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The evidence item is flagged as 'publisher-supplied bibliographic metadata' with the full paper not read or independently assessed, meaning its substantive findings cannot be relied upon. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The evidence item is marked as 'user-supplied' provenance and 'saved as a research lead, not verified company evidence,' limiting its evidentiary weight for investment analysis. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Whether Nova AI's $47B TAM, competitive differentiation, or 200+ competitor risk claims are substantiated cannot be determined from the available evidence. []\n\nTechnical partner\nThe evidence packet for Nova AI contains only a single user-supplied research lead — a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search. This paper has not been independently assessed and is not verified company evidence. No technical documentation, product architecture details, IP filings, or engineering artifacts for Nova AI have been provided. Meaningful technical due diligence on Nova AI's architecture and defensibility cannot be performed from this evidence alone.\nobservation: A research lead referencing an academic paper on AI-driven knowledge graphs for enterprise search was saved in Nova AI's evidence packet, but the full paper has not been read or independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The saved research lead is classified as user-supplied provenance, meaning it has not been verified as directly relevant to Nova AI's proprietary technology or product. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: If Nova AI's workflow automation platform incorporates knowledge graph techniques for enterprise search, this academic literature could be contextually relevant — but no such connection has been established by the available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The technical basis for the claimed 'proprietary fine-tuning pipeline' moat is entirely unsubstantiated by the evidence provided. []\nunknown: No technical documentation, architecture diagrams, patent filings, or engineering references specific to Nova AI have been supplied in the evidence packet. []\n\nFinancial analyst\nRevenue quality, valuation, and unit economics for Nova AI cannot be meaningfully assessed from the available evidence. The sole evidence item is an unread, user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs — not verified company evidence and only loosely related to Nova AI's stated focus. All financial claims ($2.4M ARR, +340% YoY growth, $80M valuation) originate exclusively from unverified company-supplied context with zero independent corroboration in the evidence packet.\nobservation: The only item in the evidence packet is a publisher-supplied bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search, explicitly flagged as a research lead and not verified company evidence — providing no basis for revenue quality or valuation analysis. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's subject matter is only tangentially related to Nova AI's autonomous workflow automation focus; no connection to Nova AI's revenue model, pricing, or customer economics has been established by any available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The $2.4M ARR figure, +340% YoY growth rate, and $80M valuation are entirely unverified assertions from company-supplied context; no audited financials, accountant-reviewed statements, or independent revenue confirmation exist in the evidence packet. []\nunknown: Unit economics inputs — including customer acquisition cost, average contract value, gross margin, net revenue retention, and payback period — are wholly absent from the evidence packet and cannot be estimated from available materials. []\nunknown: The implied revenue multiple of approximately 33x ARR on the $80M valuation cannot be assessed for reasonableness without verified ARR, customer concentration data, contract terms, or comparable transaction benchmarks supported by evidence. []\n\nLegal analyst\nThe legal evidence packet for Nova AI is critically insufficient. The sole evidence item is a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs, flagged as user-supplied and not independently verified. No IP filings, contracts, founder assignment agreements, employment/non-compete documentation, or licensing records have been provided. Legal due diligence cannot be meaningfully conducted on the available evidence alone.\nobservation: The only evidence item in the packet is a publisher-supplied bibliographic reference to an academic paper; the full paper has not been read or independently assessed, and it is explicitly marked as a research lead rather than verified company evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper references AI-driven knowledge graphs for enterprise search; if Nova AI's product incorporates such techniques, questions of IP ownership, prior art, and potential licensing obligations may arise — but no connection between this paper and Nova AI's IP has been established by the evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: No patent applications, trade secret disclosures, IP assignment agreements, founder IP contribution records, or third-party licensing contracts for Nova AI have been supplied in the evidence packet. []\nunknown: The company profile references Fortune 500 contracts signed pre-launch, but no executed agreements, letters of intent, or legal instruments have been provided to verify the existence, terms, or enforceability of these contracts. []\nunknown: Given that key founders are described as former DeepMind and OpenAI employees, potential IP encumbrances from prior employer agreements (non-competes, IP assignment clauses, non-solicitation) represent an unverified legal risk that cannot be assessed from the available evidence. []\n\nFounder analyst\nThe founder evidence for Nova AI is insufficient for meaningful due diligence. The sole evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs — user-supplied, unverified, and not directly linked to either founder. Claimed credentials for Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, built GPT-4 fine-tuning infra) are drawn entirely from unverified company context and cannot be corroborated from the available evidence packet.\nobservation: The only item in the evidence packet is a user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, which is not linked to either founder and has not been independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The paper's subject matter — AI-driven knowledge graphs for enterprise search — is tangentially related to Nova AI's stated domain, but no connection to the founders' specific work or authorship has been established by the available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The claimed credentials of Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, GPT-4 fine-tuning infrastructure) are entirely unverified — no employment records, publications, or third-party confirmations are present in the evidence packet. []\nunknown: The claim of '3 prior exits' attributed to the founding team in the company profile cannot be assessed, as no deal records, press releases, or corroborating documentation are available in the evidence. []\nunknown: No founder-linked artifacts such as academic publications, conference presentations, patent filings, or verifiable employment histories have been supplied, making execution track record assessment impossible from current evidence. []\n\nSkeptic partner\nFrom a skeptic's standpoint, Nova AI's investment case rests almost entirely on unverified company-supplied assertions. The single evidence item in the packet is a loosely related academic bibliographic reference that has not been read, assessed, or tied to Nova AI's actual product. Every key bull case claim — proprietary moat, Fortune 500 contracts, founder pedigree, and ARR growth — is unsubstantiated by independent evidence. The risk of confirmation bias in the AI recommendation is high given the evidence gap.\nobservation: The only evidence item in the packet is an unread, publisher-supplied bibliographic reference to an academic paper on knowledge graphs, flagged explicitly as 'not verified company evidence' and of user-supplied provenance — providing no evidentiary basis for any investment claim about Nova AI. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's stated focus on autonomous workflow automation agents, making even indirect relevance speculative. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The bull case claims of a 'proprietary fine-tuning pipeline moat,' 'Fortune 500 contracts signed pre-launch,' and '+340% YoY growth' are entirely unverified assertions from company context, with zero independent corroborating evidence supplied. []\nunknown: The AI recommendation of 'Strong Buy' with a top-2% pipeline ranking cannot be validated from the available evidence and may reflect over-reliance on founder brand rather than verified operational or technical facts. []\nunknown: The financial due diligence track explicitly failed due to an evidence integrity error, meaning no verified financial analysis has been completed — leaving the $2.4M ARR and $80M valuation claims entirely unscrutinized. []\n\nPortfolio manager\nPortfolio monitoring for Nova AI is severely constrained by evidence gaps. The sole evidence item is an unread, user-supplied bibliographic reference to an academic paper on knowledge graphs — not verified company evidence. All concentration and trigger-monitoring inputs (ARR trajectory, contract milestones, burn rate, competitive positioning) rely entirely on unverified company-supplied assertions. No independent data exists to establish meaningful monitoring baselines or trigger thresholds at this time.\nobservation: The only evidence item in Nova AI's packet is a publisher-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — providing no basis for portfolio monitoring metrics. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The financial due diligence track failed due to an evidence integrity error, meaning no verified financial baseline exists against which to monitor the claimed $2.4M ARR, +340% YoY growth, or $80M valuation for concentration risk purposes. []\ninference: The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's autonomous workflow automation focus, and no connection to the company's product roadmap or competitive positioning has been established by available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Key follow-up triggers — such as Fortune 500 contract execution, revenue milestone verification, and IP moat substantiation — cannot be set with confidence because every underlying claim originates from unverified company context with zero independent corroboration in the evidence packet. []\nunknown: The 200+ competitor risk flag in the company profile and the AI 'Strong Buy' recommendation are both unsubstantiated by independent evidence, making portfolio concentration decisions based on either signal premature and potentially unreliable. []\n\nGeneral partner\nNova AI presents a compelling surface-level investment narrative — strong founder pedigree, early Fortune 500 traction, and rapid ARR growth — but every material claim in the bull case is drawn exclusively from unverified, company-supplied context. The sole evidence item in the packet is an unread academic bibliographic reference to AI-driven knowledge graphs, flagged explicitly as a user-supplied research lead and not verified company evidence. Across all seven analyst tracks, no independent corroboration exists for any financial, technical, legal, or founder claim. The investment case cannot be meaningfully evaluated in its current state; proceeding without substantial additional verified evidence would represent an unacceptable due diligence gap.\nobservation: The only item in the evidence packet is a publisher-supplied bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search, explicitly flagged as a research lead and not verified company evidence — it has not been independently read or assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially adjacent to Nova AI's stated focus on autonomous workflow automation agents; no connection between this paper and Nova AI's product, founders, or IP has been established by any available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: All core bull case claims — including the $2.4M ARR, +340% YoY growth, $80M valuation, Fortune 500 pre-launch contracts, proprietary fine-tuning moat, and founder credentials — are entirely unverified assertions from company-supplied context with zero independent corroboration in the evidence packet. []\nunknown: Potential IP encumbrances arising from founders' prior employment at DeepMind and OpenAI — including non-compete, IP assignment, and non-solicitation obligations — represent a material legal risk that cannot be assessed from available evidence. []\nunknown: The AI 'Strong Buy' recommendation and top-2% pipeline ranking cannot be validated from available evidence and may reflect founder-pedigree bias rather than verified operational or technical facts. []",
+              "sourceIds": [
+                "be6412ae-ea6b-4063-9942-d2fde38220ff"
+              ]
+            },
+            {
+              "id": "89717113-e3e4-4dd0-b155-6cbc16176181",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:58:44.431Z",
+              "trigger": "AI review · 7/8 perspectives",
+              "body": "Market analyst\nEvidence is insufficient to support meaningful market analysis for Nova AI. The single available evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs for enterprise search, which is only loosely related to Nova AI's autonomous workflow automation focus. No market sizing data, competitive landscape analysis, or demand signals from verified sources are present in the evidence packet. All company context is provided as sample/fictional data and cannot be treated as verified fact.\ninference: The available evidence references academic work on AI-driven knowledge graphs for enterprise search, suggesting growing research interest in AI applications for enterprise environments broadly — a space adjacent to Nova AI's stated focus. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The evidence item is flagged as 'publisher-supplied bibliographic metadata' with the full paper not read or independently assessed, meaning its substantive findings cannot be relied upon. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The evidence item is marked as 'user-supplied' provenance and 'saved as a research lead, not verified company evidence,' limiting its evidentiary weight for investment analysis. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Whether Nova AI's $47B TAM, competitive differentiation, or 200+ competitor risk claims are substantiated cannot be determined from the available evidence. []\n\nTechnical partner\nThe evidence packet for Nova AI contains only a single user-supplied research lead — a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search. This paper has not been independently assessed and is not verified company evidence. No technical documentation, product architecture details, IP filings, or engineering artifacts for Nova AI have been provided. Meaningful technical due diligence on Nova AI's architecture and defensibility cannot be performed from this evidence alone.\nobservation: A research lead referencing an academic paper on AI-driven knowledge graphs for enterprise search was saved in Nova AI's evidence packet, but the full paper has not been read or independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The saved research lead is classified as user-supplied provenance, meaning it has not been verified as directly relevant to Nova AI's proprietary technology or product. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: If Nova AI's workflow automation platform incorporates knowledge graph techniques for enterprise search, this academic literature could be contextually relevant — but no such connection has been established by the available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The technical basis for the claimed 'proprietary fine-tuning pipeline' moat is entirely unsubstantiated by the evidence provided. []\nunknown: No technical documentation, architecture diagrams, patent filings, or engineering references specific to Nova AI have been supplied in the evidence packet. []\n\nLegal analyst\nThe legal evidence packet for Nova AI is critically insufficient. The sole evidence item is a bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs, flagged as user-supplied and not independently verified. No IP filings, contracts, founder assignment agreements, employment/non-compete documentation, or licensing records have been provided. Legal due diligence cannot be meaningfully conducted on the available evidence alone.\nobservation: The only evidence item in the packet is a publisher-supplied bibliographic reference to an academic paper; the full paper has not been read or independently assessed, and it is explicitly marked as a research lead rather than verified company evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper references AI-driven knowledge graphs for enterprise search; if Nova AI's product incorporates such techniques, questions of IP ownership, prior art, and potential licensing obligations may arise — but no connection between this paper and Nova AI's IP has been established by the evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: No patent applications, trade secret disclosures, IP assignment agreements, founder IP contribution records, or third-party licensing contracts for Nova AI have been supplied in the evidence packet. []\nunknown: The company profile references Fortune 500 contracts signed pre-launch, but no executed agreements, letters of intent, or legal instruments have been provided to verify the existence, terms, or enforceability of these contracts. []\nunknown: Given that key founders are described as former DeepMind and OpenAI employees, potential IP encumbrances from prior employer agreements (non-competes, IP assignment clauses, non-solicitation) represent an unverified legal risk that cannot be assessed from the available evidence. []\n\nFounder analyst\nThe founder evidence for Nova AI is insufficient for meaningful due diligence. The sole evidence item is a bibliographic reference to an academic paper on AI-driven knowledge graphs — user-supplied, unverified, and not directly linked to either founder. Claimed credentials for Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, built GPT-4 fine-tuning infra) are drawn entirely from unverified company context and cannot be corroborated from the available evidence packet.\nobservation: The only item in the evidence packet is a user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, which is not linked to either founder and has not been independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The paper's subject matter — AI-driven knowledge graphs for enterprise search — is tangentially related to Nova AI's stated domain, but no connection to the founders' specific work or authorship has been established by the available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The claimed credentials of Sarah Chen (Ex-DeepMind Research Lead, PhD MIT) and Marcus Webb (Ex-OpenAI, GPT-4 fine-tuning infrastructure) are entirely unverified — no employment records, publications, or third-party confirmations are present in the evidence packet. []\nunknown: The claim of '3 prior exits' attributed to the founding team in the company profile cannot be assessed, as no deal records, press releases, or corroborating documentation are available in the evidence. []\nunknown: No founder-linked artifacts such as academic publications, conference presentations, patent filings, or verifiable employment histories have been supplied, making execution track record assessment impossible from current evidence. []\n\nSkeptic partner\nFrom a skeptic's standpoint, Nova AI's investment case rests almost entirely on unverified company-supplied assertions. The single evidence item in the packet is a loosely related academic bibliographic reference that has not been read, assessed, or tied to Nova AI's actual product. Every key bull case claim — proprietary moat, Fortune 500 contracts, founder pedigree, and ARR growth — is unsubstantiated by independent evidence. The risk of confirmation bias in the AI recommendation is high given the evidence gap.\nobservation: The only evidence item in the packet is an unread, publisher-supplied bibliographic reference to an academic paper on knowledge graphs, flagged explicitly as 'not verified company evidence' and of user-supplied provenance — providing no evidentiary basis for any investment claim about Nova AI. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's stated focus on autonomous workflow automation agents, making even indirect relevance speculative. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The bull case claims of a 'proprietary fine-tuning pipeline moat,' 'Fortune 500 contracts signed pre-launch,' and '+340% YoY growth' are entirely unverified assertions from company context, with zero independent corroborating evidence supplied. []\nunknown: The AI recommendation of 'Strong Buy' with a top-2% pipeline ranking cannot be validated from the available evidence and may reflect over-reliance on founder brand rather than verified operational or technical facts. []\nunknown: The financial due diligence track explicitly failed due to an evidence integrity error, meaning no verified financial analysis has been completed — leaving the $2.4M ARR and $80M valuation claims entirely unscrutinized. []\n\nPortfolio manager\nPortfolio monitoring for Nova AI is severely constrained by evidence gaps. The sole evidence item is an unread, user-supplied bibliographic reference to an academic paper on knowledge graphs — not verified company evidence. All concentration and trigger-monitoring inputs (ARR trajectory, contract milestones, burn rate, competitive positioning) rely entirely on unverified company-supplied assertions. No independent data exists to establish meaningful monitoring baselines or trigger thresholds at this time.\nobservation: The only evidence item in Nova AI's packet is a publisher-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — providing no basis for portfolio monitoring metrics. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The financial due diligence track failed due to an evidence integrity error, meaning no verified financial baseline exists against which to monitor the claimed $2.4M ARR, +340% YoY growth, or $80M valuation for concentration risk purposes. []\ninference: The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's autonomous workflow automation focus, and no connection to the company's product roadmap or competitive positioning has been established by available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Key follow-up triggers — such as Fortune 500 contract execution, revenue milestone verification, and IP moat substantiation — cannot be set with confidence because every underlying claim originates from unverified company context with zero independent corroboration in the evidence packet. []\nunknown: The 200+ competitor risk flag in the company profile and the AI 'Strong Buy' recommendation are both unsubstantiated by independent evidence, making portfolio concentration decisions based on either signal premature and potentially unreliable. []\n\nGeneral partner\nNova AI presents a compelling narrative — elite founder pedigree, proprietary technical moat, Fortune 500 traction, and strong ARR growth — but the entire investment case rests on unverified company-supplied assertions. The sole evidence item in the packet is an unread, user-supplied bibliographic reference to an academic paper on AI-driven knowledge graphs that has no confirmed connection to Nova AI's product. Every critical bull case claim is unsubstantiated, the financial due diligence track failed outright, and no independent corroboration exists across technical, legal, market, or founder dimensions. The opportunity may be real, but the evidence base is currently insufficient to support a conviction investment decision.\nobservation: The only item in Nova AI's evidence packet is a publisher-supplied bibliographic reference to a 2025 academic paper on AI-driven knowledge graphs for enterprise search, explicitly flagged as a research lead and not verified company evidence, with the full paper not read or independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's subject matter — AI-driven knowledge graphs for enterprise search — is only tangentially related to Nova AI's stated focus on autonomous workflow automation agents, and no connection between this paper and Nova AI's actual product, IP, or founders has been established by the available evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The core bull case claims — proprietary fine-tuning pipeline moat, Fortune 500 pre-launch contracts, $2.4M ARR with +340% YoY growth, and founder credentials including 3 prior exits — are entirely unverified, with zero independent corroborating evidence supplied in the evidence packet. []\nunknown: The financial due diligence track failed due to an evidence integrity error, meaning no verified financial analysis has been completed and the $80M valuation has not been independently scrutinized. []\nunknown: Potential IP encumbrances from prior employer agreements at DeepMind and OpenAI, freedom-to-operate on the claimed fine-tuning pipeline, and the legal enforceability of referenced Fortune 500 contracts all remain entirely unassessed due to absence of relevant legal documents in the evidence packet. []",
+              "sourceIds": [
+                "be6412ae-ea6b-4063-9942-d2fde38220ff"
+              ]
+            },
+            {
+              "id": "bdb65725-c009-47ba-88d4-ea9461e6d75f",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:56:31.029Z",
+              "trigger": "AI review · 6/8 perspectives",
+              "body": "Market analyst\nEvidence for Nova AI is critically insufficient for market analysis. The single supplied document concerns AI-driven knowledge graphs for enterprise search and is flagged as unverified, publisher-supplied bibliographic metadata — not company-specific evidence. No demand data, competitive landscape detail, or market timing signals for Nova AI can be responsibly derived from this evidence packet.\nobservation: The evidence packet contains only one document, a bibliographic reference to an academic paper on AI knowledge graphs for enterprise search, which is not verified company evidence and has not been independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The document's focus on knowledge graph-based enterprise search is adjacent to but not directly confirmatory of Nova AI's autonomous workflow automation use case, suggesting only loose thematic overlap. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Nova AI's stated risk of 200+ competitors in AI automation cannot be validated, quantified, or contextualized using the supplied evidence. []\nunknown: Nova AI's reported $2.4M ARR, 340% YoY growth, and Fortune 500 pre-launch contracts are unverified by any supplied evidence document. []\nunknown: Market sizing figures (TAM $47B, SAM $8B, SOM $400M) provided in the company context have no supporting source in the evidence packet and cannot be assessed. []\n\nTechnical partner\nThe evidence packet for Nova AI contains only a single user-supplied research lead — an academic paper on AI-driven knowledge graphs for enterprise search, retrieved from Crossref. This paper has not been independently read or assessed, and it has not been verified as directly connected to Nova AI's technology or product. No technical architecture documentation, code repositories, patent filings, or engineering-specific company materials are present. Accordingly, a substantive technical assessment of Nova AI's architecture, fine-tuning pipeline, or defensibility cannot be made from the available evidence alone.\nobservation: A paper titled 'AI-Driven Knowledge Graphs for Enterprise Search' was saved as a research lead associated with Nova AI, but it is explicitly flagged as unverified company evidence and the full paper has not been read or independently assessed. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The research lead was user-supplied rather than sourced through independent retrieval, reducing its evidentiary weight for technical due diligence purposes. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: If Nova AI's product incorporates knowledge graph techniques for enterprise search or workflow automation, this academic area could be relevant to evaluating their technical approach — but no direct link has been established. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The claim that Nova AI possesses a proprietary fine-tuning pipeline constituting a durable moat (per company context) is unsubstantiated by any supplied evidence. []\nunknown: Key technical defensibility factors — including patent filings, model architecture details, infrastructure design, and data provenance — are absent from the current evidence packet. []\n\nLegal analyst\nThe evidence packet for Nova AI contains only a single user-supplied, unverified bibliographic reference to an academic paper on AI knowledge graphs. No IP filings, employment agreements, customer contracts, founder departure agreements, or company-specific legal documentation are present. A substantive legal due diligence assessment cannot be responsibly conducted from this evidence alone. All material legal claims below are flagged as unknown pending verified documentation.\nobservation: The sole document in the evidence packet is a user-supplied, unverified bibliographic metadata record for an academic paper on AI-driven knowledge graphs; it has not been independently assessed and is explicitly not verified company evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: If Nova AI's product incorporates knowledge graph techniques referenced in this academic paper, counsel should assess whether any academic institution or prior employer holds IP claims over related methods used in Nova AI's product, particularly given founders' backgrounds at DeepMind and OpenAI. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Nova AI's claim of signed Fortune 500 enterprise contracts pre-launch is unverified — no contracts, NDAs, MSAs, or SOWs are present in the evidence packet for legal review. []\nunknown: The existence, scope, and ownership of any patent filings or trade secret protections covering Nova AI's claimed proprietary fine-tuning pipeline cannot be assessed from the available evidence. []\nunknown: Founder IP assignment agreements, non-compete or non-solicitation obligations owed to prior employers (DeepMind, OpenAI), and clean IP chain-of-title documentation are absent from the evidence packet and unverifiable at this stage. []\n\nFounder analyst\nFounder background claims for Nova AI — including Sarah Chen's purported role as Ex-DeepMind Research Lead with a PhD from MIT and Marcus Webb's role building GPT-4 fine-tuning infrastructure at OpenAI — cannot be verified from the supplied evidence. The sole evidence document is an unrelated academic bibliographic reference on AI knowledge graphs that has not been independently assessed and has no confirmed connection to either founder. No LinkedIn profiles, publication records, employment verifications, or prior exit documentation are present in the evidence packet. Founder quality, prior exits, and institutional affiliations are entirely unsubstantiated by available evidence.\nobservation: The only supplied evidence document is a bibliographic reference to an academic paper on AI-driven knowledge graphs for enterprise search, flagged explicitly as unverified and saved as a research lead, not verified company evidence — it contains no information about Nova AI's founders. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The claims that Sarah Chen was an Ex-DeepMind Research Lead with a PhD from MIT and that Marcus Webb built GPT-4 fine-tuning infrastructure at OpenAI are drawn solely from company-supplied context and are unverifiable from the evidence packet. []\nunknown: The assertion that the founding team has three prior exits — cited as a key bull case — has no corroborating documentation in the evidence packet and cannot be assessed. []\ninference: If the academic paper on knowledge graphs was authored or co-authored by either founder, it could serve as partial evidence of research credibility, but no authorship link between the paper and Nova AI's founders has been established. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Founder execution track record — including prior company outcomes, roles held, tenure, and verifiable contributions at DeepMind or OpenAI — is entirely absent from the supplied evidence. []\n\nPortfolio manager\nPortfolio monitoring for Nova AI is severely constrained by evidence insufficiency. The sole document in the evidence packet is an unverified academic bibliographic reference on AI knowledge graphs with no confirmed link to Nova AI's operations, financials, or team. Across all completed analyst workstreams — market, technical, legal, and founder — every material company claim (ARR, growth, Fortune 500 contracts, founder backgrounds, proprietary moat) remains unsubstantiated. Two analyst workstreams (financial, skeptic) failed outright due to evidentiary gaps. Concentration risk is elevated: no verified milestone data exists to anchor monitoring triggers or support current $80M valuation assumptions.\nobservation: The sole evidence document is a user-supplied, unverified bibliographic metadata record for an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — it contains no Nova AI-specific operational, financial, or team information. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: All five analyst workstreams identified the same evidentiary vacuum; two workstreams (financial and skeptic) failed to produce outputs, indicating the evidence packet is structurally insufficient to support standard portfolio monitoring protocols. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Nova AI's reported $2.4M ARR, 340% YoY growth, $80M valuation, and pre-launch Fortune 500 contracts — which underpin the investment thesis — are entirely unverified by any supplied evidence and cannot serve as confirmed monitoring benchmarks. []\nunknown: Founder credential claims (DeepMind, OpenAI, MIT PhD, 3 prior exits) and the proprietary fine-tuning moat assertion have no corroborating documentation in the evidence packet, leaving key conviction drivers for the Series A unvalidated. []\ninference: IP chain-of-title risk — particularly potential conflicting obligations to DeepMind, OpenAI, or academic institutions — has been flagged by the legal workstream as unassessable without verified founder IP assignment agreements and freedom-to-operate analysis. [be6412ae-ea6b-4063-9942-d2fde38220ff]\n\nGeneral partner\nNova AI presents a compelling Series A narrative — elite founder pedigree, proprietary fine-tuning moat, Fortune 500 traction, and 340% ARR growth — but the entire investment thesis rests on unverified company-supplied claims. The sole evidence document is an unrelated, unassessed academic bibliographic reference on AI knowledge graphs. Every material conviction driver — financials, founder credentials, technical moat, contracts, and IP chain-of-title — remains unsubstantiated. Two analyst workstreams failed outright due to evidence gaps, and no monitoring benchmarks can be responsibly established at this stage. The opportunity may be real, but the current evidence packet is structurally insufficient to support a capital decision.\nobservation: The only document in the evidence packet is a user-supplied, unverified bibliographic metadata record for an academic paper on AI-driven knowledge graphs, explicitly flagged as a research lead and not verified company evidence — it contains no Nova AI-specific financial, operational, or team information. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's focus on knowledge graph-based enterprise search is thematically adjacent to Nova AI's workflow automation use case, but no direct link between the paper and Nova AI's product, founders, or technical approach has been established. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Nova AI's $2.4M ARR, 340% YoY growth, $80M valuation, and pre-launch Fortune 500 signed contracts — the core of the bull case — are entirely unverified by any supplied evidence and cannot serve as confirmed investment or monitoring anchors. []\nunknown: Founder credential claims (DeepMind Research Lead, OpenAI GPT-4 infrastructure, MIT PhD, three prior exits) and the proprietary fine-tuning moat assertion have no corroborating documentation in the evidence packet, leaving the primary conviction drivers for this Series A unvalidated. []\nunknown: IP chain-of-title risk — including potential conflicting IP obligations to DeepMind, OpenAI, or academic institutions — is flagged as unassessable without verified founder IP assignment agreements and a freedom-to-operate analysis, representing a material latent risk to the investment. []",
+              "sourceIds": [
+                "be6412ae-ea6b-4063-9942-d2fde38220ff"
+              ]
+            },
+            {
+              "id": "9972db80-fb59-4ee4-8be7-7423463210f3",
+              "companyId": "nova-ai",
+              "createdAt": "2026-09-26T20:54:26.954Z",
+              "trigger": "AI review · 7/8 perspectives",
+              "body": "Market analyst\nNova AI operates in enterprise workflow automation, a segment showing active research interest in AI-driven enterprise tools (e.g., knowledge graphs for search). However, the single evidence item is a bibliographic metadata record from an academic journal—not verified company evidence—and covers adjacent technology (knowledge graphs/enterprise search) rather than Nova AI's core autonomous agent offering. Evidence is insufficient to draw strong market conclusions; the company context itself remains the primary data source, which must be treated as sample/fictional.\ninference: There is active academic research activity in AI applications for enterprise workflows as of mid-2025, suggesting continued market-level interest in the broader space Nova AI targets. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The evidence item covers AI-driven knowledge graphs for enterprise search—an adjacent but distinct technology from autonomous workflow automation agents—limiting its direct applicability to Nova AI's competitive positioning. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The crowded competitive landscape (200+ noted competitors per company context) is not corroborated, contradicted, or quantified by any supplied evidence. []\nunknown: Nova AI's $47B TAM and $2.4M ARR figures are unverified by any independent evidence in the supplied packet and derive solely from the company context provided. []\nobservation: The single evidence source is flagged as publisher-supplied bibliographic metadata with the full paper unread and explicitly saved as a 'research lead, not verified company evidence,' materially limiting evidentiary weight. [be6412ae-ea6b-4063-9942-d2fde38220ff]\n\nTechnical partner\nEvidence for Nova AI is critically thin. The single supplied document is an academic paper on AI-driven knowledge graphs for enterprise search, published in an external journal with no demonstrated connection to Nova AI. It was flagged at ingestion as a research lead, not verified company evidence. No technical documentation, architecture specs, customer contracts, financial records, or founder-attributed materials were provided. A meaningful technical assessment of Nova AI's architecture or defensibility cannot be made from this evidence packet alone.\nobservation: The evidence packet contains one item, which is an academic paper on AI-driven knowledge graphs for enterprise search sourced from the International Journal of Science and Research via Crossref; it carries no attribution to Nova AI and was saved explicitly as 'a research lead, not verified company evidence.' [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's topic — knowledge graphs for enterprise search and recommendations — is thematically adjacent to enterprise workflow automation, but no link between the paper's content and Nova AI's actual product architecture has been established in the supplied evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Whether Nova AI's claimed proprietary fine-tuning pipeline constitutes a durable technical moat cannot be assessed — no architecture documentation, patent filings, technical whitepapers, or independent code/system audits were supplied. []\nunknown: The founding team credentials (ex-DeepMind, ex-OpenAI, GPT-4 fine-tuning infrastructure) cited in the company context are unverified by any supplied evidence document. []\nunknown: No customer contract details, technical integration documentation, or independent validation of the reported $2.4M ARR or Fortune 500 pre-launch contracts appear anywhere in the supplied evidence. []\n\nLegal analyst\nThe legal evidence packet for Nova AI is critically insufficient. The single supplied document is an academic bibliographic metadata record on AI-driven knowledge graphs with no connection to Nova AI's IP, contracts, or legal standing. No patent filings, licensing agreements, employment/non-compete terms, customer contracts, or founder IP assignment documents were provided. All legally material claims in the company context—proprietary fine-tuning pipeline, Fortune 500 contracts, founder backgrounds implying prior employer IP considerations—remain entirely unverified and must be treated as questions for qualified counsel.\nobservation: The sole evidence item is explicitly flagged as publisher-supplied bibliographic metadata that has not been read or independently assessed, and was saved as a research lead rather than verified company evidence, rendering it legally inadmissible as support for any IP or contractual claim. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nobservation: The academic paper concerns AI-driven knowledge graphs for enterprise search—a technology adjacent to Nova AI's stated autonomous agent offering—but establishes no documented link to Nova AI's own IP, filings, or research output. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: Whether Nova AI holds enforceable IP rights in its claimed proprietary fine-tuning pipeline—including patent applications, trade secret protections, or invention assignment agreements—cannot be determined from the supplied evidence. []\nunknown: Given founders' prior employment at DeepMind and OpenAI, the risk of prior employer IP ownership claims or restrictive covenant conflicts over the fine-tuning pipeline is a material legal question that is entirely unaddressed in the supplied evidence packet. []\nunknown: The existence, terms, enforceability, and revenue contribution of the referenced Fortune 500 enterprise contracts are unverified; no executed agreements, SOWs, NDAs, or customer references appear anywhere in the supplied evidence. []\n\nFounder analyst\nFounder credential verification for Nova AI is not possible from the supplied evidence. The single evidence item is an academic paper on knowledge graphs with no attribution to Sarah Chen, Marcus Webb, or Nova AI, and was explicitly flagged at ingestion as a research lead rather than verified company evidence. Prior analyst outputs consistently flag founder backgrounds (ex-DeepMind, ex-OpenAI, prior exits) as unverified. No LinkedIn profiles, publication records, patent filings, employment confirmations, or founder-attributed materials appear anywhere in the evidence packet. A meaningful founder quality assessment cannot be made from this evidence alone.\nobservation: The single supplied evidence item is an academic paper on AI-driven knowledge graphs sourced via Crossref, flagged explicitly as 'a research lead, not verified company evidence,' and carries no attribution to Sarah Chen, Marcus Webb, or Nova AI in any capacity. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The founding team credentials cited in the company context — Sarah Chen as ex-DeepMind Research Lead with a PhD from MIT, and Marcus Webb as ex-OpenAI who built GPT-4 fine-tuning infrastructure — are unverified by any document in the supplied evidence packet. []\nunknown: The claim of three prior exits attributed to the founding team in the company context bulls section is unverified; no exit records, acquisition announcements, or corroborating third-party sources appear in the evidence packet. []\ninference: The academic paper's subject matter (enterprise search, knowledge graphs) is thematically adjacent to AI/ML enterprise tooling, but no connection between the paper's authorship or content and the Nova AI founders' professional output has been established in the supplied evidence. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: No founder-attributed materials — including publications, patents, conference presentations, GitHub repositories, or employment verification records — were supplied in the evidence packet, making execution history and technical contribution claims unassessable. []\n\nSkeptic partner\nEvidence for Nova AI is critically insufficient to support or falsify any of the bull-case claims. The sole evidence item is an unread academic paper on knowledge graphs with no demonstrated connection to Nova AI, explicitly flagged as unverified. All key investment-thesis pillars—founder credentials, proprietary moat, Fortune 500 contracts, ARR, and TAM—remain entirely unsubstantiated by supplied evidence, and prior analyst outputs confirm the same gap. The skeptical position is that the investment case rests wholly on unverified company-supplied assertions.\nobservation: The single evidence item in the packet is explicitly flagged at ingestion as 'a research lead, not verified company evidence,' and covers knowledge graphs for enterprise search—a technology adjacent to but distinct from Nova AI's claimed autonomous agent offering—rendering it non-probative for any Nova AI-specific claim. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The adjacency of the academic paper's topic to enterprise AI suggests at most that the broader space attracts research interest, but this cannot be extrapolated to validate Nova AI's specific market sizing, competitive positioning, or product differentiation. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: The proprietary fine-tuning pipeline described as a 'durable moat' is entirely unsubstantiated—no architecture documentation, patent filings, third-party audits, or model performance benchmarks appear anywhere in the supplied evidence. []\nunknown: The Fortune 500 pre-launch contracts, $2.4M ARR, 340% YoY growth, and $80M valuation are unverified by any independent source in the evidence packet; all figures derive solely from the company context, which is self-reported and sample/fictional. []\nunknown: Founder credentials (ex-DeepMind, ex-OpenAI, prior exits) and the competitive landscape claim of 200+ rivals are uncorroborated by any supplied evidence and cannot be treated as established facts for investment purposes. []\n\nPortfolio manager\nAs portfolio manager assessing concentration, monitoring, and follow-up triggers for Nova AI: the evidence base is critically insufficient to support active position sizing or conviction-based concentration. All investment-thesis pillars — founder credentials, proprietary moat, Fortune 500 contracts, ARR, and growth rate — remain entirely unverified by independent evidence. The sole supplied document is an unread academic paper on adjacent technology with no demonstrated link to Nova AI. Until material verification gaps are closed, this position warrants a hard hold on incremental concentration and immediate escalation of structured follow-up triggers.\nobservation: The entire evidence packet consists of a single academic bibliographic metadata record on AI-driven knowledge graphs, explicitly flagged at ingestion as 'a research lead, not verified company evidence,' with the full paper unread and no demonstrated connection to Nova AI — rendering the evidence base insufficient to underpin any concentration decision. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's thematic adjacency to enterprise AI tooling provides at most a weak signal of continued market-level research interest in the broader space Nova AI targets, but cannot be extrapolated to validate Nova AI's specific TAM, ARR, growth rate, or competitive positioning. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: All primary concentration-relevant data points — $2.4M ARR, 340% YoY growth, $80M valuation, Fortune 500 pre-launch contracts, proprietary fine-tuning moat, and founder credentials — are unverified by any independent evidence across all prior analyst outputs and cannot be treated as established facts for portfolio sizing purposes. []\nunknown: Material legal and IP risk triggers are entirely unaddressed: the risk of prior employer IP ownership claims from DeepMind or OpenAI over the core fine-tuning pipeline, and the existence and enforceability of the Fortune 500 contracts, remain open questions with no supporting documentation in the evidence packet. []\nobservation: The financial analyst output is in a failed state, meaning no independent financial claims analysis has been completed; this constitutes a monitoring gap that must be resolved before any follow-up investment action. [be6412ae-ea6b-4063-9942-d2fde38220ff]\n\nGeneral partner\nNova AI presents a compelling surface-level investment thesis — elite founding team, rapid ARR growth, Fortune 500 traction, and a claimed proprietary fine-tuning moat — but the evidence packet is critically insufficient to substantiate any of these pillars. The sole supplied document is an unread academic bibliographic metadata record on AI-driven knowledge graphs with no demonstrated connection to Nova AI, explicitly flagged at ingestion as a research lead rather than verified company evidence. Every prior analyst output converges on the same conclusion: the entire investment case rests on unverified, self-reported company context. The financial analysis failed entirely, leaving a structural gap in the review. Until founder credentials, ARR, contracts, IP ownership, and technical differentiation are independently verified, the 87 investment score and 'Strong Buy' AI recommendation cannot be relied upon for a capital decision.\nobservation: The sole evidence item in the packet is an academic bibliographic metadata record on AI-driven knowledge graphs for enterprise search, explicitly flagged at ingestion as publisher-supplied metadata with the full paper unread and saved as 'a research lead, not verified company evidence' — rendering the entire evidence base non-probative for any Nova AI-specific investment claim. [be6412ae-ea6b-4063-9942-d2fde38220ff]\ninference: The academic paper's thematic adjacency to enterprise AI tooling provides at most a weak signal of continued market-level research interest in the broader space Nova AI targets, but cannot be extrapolated to validate Nova AI's TAM, ARR, growth rate, competitive positioning, or product architecture. [be6412ae-ea6b-4063-9942-d2fde38220ff]\nunknown: All primary investment-thesis pillars — $2.4M ARR, 340% YoY growth, $80M valuation, Fortune 500 pre-launch contracts, proprietary fine-tuning moat, founder credentials (ex-DeepMind, ex-OpenAI, three prior exits), and the 200+ competitor landscape — are entirely unverified by any independent evidence across all prior analyst outputs and must be treated as unsubstantiated company-supplied assertions. []\nunknown: Material legal and IP risk questions are wholly unaddressed: whether Nova AI holds enforceable IP rights in its fine-tuning pipeline free of prior employer ownership claims from DeepMind or OpenAI, and whether the referenced Fortune 500 contracts are fully executed and binding, cannot be determined from the supplied evidence and constitute the single largest unresolved risk cluster across all analyst outputs. []\nobservation: The financial analyst output is in a failed state with no corrective action documented, representing a structural monitoring gap that leaves the ARR, revenue schedule, and valuation claims without any completed independent analysis layer. [be6412ae-ea6b-4063-9942-d2fde38220ff]",
+              "sourceIds": [
+                "be6412ae-ea6b-4063-9942-d2fde38220ff"
+              ]
+            }
+          ],
+          "monitorHeartbeat": "2026-09-26T21:03:37.216Z"
+        }
+      }
+    ]
+  }
+}

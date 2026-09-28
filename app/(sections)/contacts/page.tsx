@@ -1,0 +1,2 @@
+import RecordWorkspace from "@/components/RecordWorkspace";
+export default function Page() { return <RecordWorkspace collection="contacts" title="Contacts" singular="Contact" description="Keep founder, investor and advisor relationships in one place." titleKey="name" subtitleKey="title" fields={[{key:"name",label:"Name",required:true},{key:"title",label:"Role or company",required:true},{key:"email",label:"Email",type:"email"},{key:"type",label:"Relationship"},{key:"note",label:"Notes",type:"textarea"}]}/>; }
