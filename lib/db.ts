@@ -29,7 +29,11 @@ export interface DB {
   [key: string]: Record[];
 }
 
-const FILE = process.env.INVEST_OS_DATA_FILE || path.join(process.cwd(), "data", "store.json");
+const FILE =
+  process.env.INVEST_OS_DATA_FILE ||
+  (process.env.VERCEL
+    ? path.join("/tmp", "invest-os-store.json")
+    : path.join(process.cwd(), "data", "store.json"));
 
 function uid(prefix: string): string {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
