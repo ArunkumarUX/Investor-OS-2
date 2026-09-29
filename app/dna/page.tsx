@@ -1,30 +1,70 @@
 "use client";
-import { useState, useEffect, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
+import { Bell, Check, CircleAlert, Clock, Download, FileText, Globe2, Lightbulb, Save, Target, ThumbsUp, Wallet } from "lucide-react";
 import { saveDNA, getDNA, subscribeStore, getStoreSnapshot, getStoreServerSnapshot, parseSnapshot } from "@/lib/store";
 import { createRecord, fetchCollection, updateRecord } from "@/lib/data-client";
-import { bookMemory } from "@/lib/operating-picture";
+import { liveHoldings } from "@/lib/portfolio-book";
+import styles from "./dna.module.css";
 
 const sectors = ["AI/ML", "FinTech", "HealthTech", "SaaS", "CleanTech", "Infrastructure", "LegalTech", "Cybersecurity", "DeepTech", "Consumer", "EdTech", "PropTech"];
 const stages = ["Pre-seed", "Seed", "Series A", "Series B", "Series C+"];
-const geos = ["USA", "UK", "Europe", "MENA", "APAC", "India", "Israel", "Global"];
+const geos = ["USA", "UK", "Europe", "APAC", "India", "Israel", "Global", "MENA"];
 const checkSizes = ["$50K–$250K", "$250K–$1M", "$1M–$5M", "$5M–$15M", "$15M+"];
+const LIMIT = 500;
+
+type Baseline = { sectors: string[]; stages: string[]; geos: string[]; checkSize: string; thesis: string };
+
+function brief(items: string[], max = 4) {
+  if (!items.length) return "None";
+  const shown = items.slice(0, max);
+  const extra = items.length - shown.length;
+  return `${shown.join(", ")}${extra ? ` (+${extra})` : ""}`;
+}
+
+function same(a: string[], b: string[]) {
+  return a.length === b.length && a.every((item) => b.includes(item));
+}
+
+function added(next: string[], prev: string[]) {
+  return next.filter((item) => !prev.includes(item));
+}
+
+function Chip({ on, tone, label, onClick }: { on: boolean; tone: "blue" | "amber" | "green"; label: string; onClick: () => void }) {
+  return (
+    <button type="button" className={styles.chip} data-on={on} data-tone={tone} aria-pressed={on} onClick={onClick}>
+      {on && <Check size={14} />}
+      {label}
+    </button>
+  );
+}
+
+function Pills({ items, tone }: { items: string[]; tone: "blue" | "amber" | "green" }) {
+  const shown = items.slice(0, 3);
+  const extra = items.length - shown.length;
+  return (
+    <div className={styles.pills}>
+      {shown.map((item) => <span key={item} className={styles.pill} data-tone={tone}>{item}</span>)}
+      {extra > 0 && <span className={`${styles.pill} ${styles.more}`}>+{extra}</span>}
+      {items.length === 0 && <span className={styles.pill}>None yet</span>}
+    </div>
+  );
+}
 
 export default function DNAPage() {
   const [selectedSectors, setSelectedSectors] = useState<string[]>(["AI/ML", "FinTech"]);
   const [selectedStages, setSelectedStages] = useState<string[]>(["Seed", "Series A"]);
   const [selectedGeos, setSelectedGeos] = useState<string[]>(["USA", "UK"]);
   const [checkSize, setCheckSize] = useState("$1M–$5M");
+  const [thesis, setThesis] = useState("");
+  const [baseline, setBaseline] = useState<Baseline | null>(null);
   const [saved, setSaved] = useState(false);
   const [saving, setSaving] = useState(false);
   const [saveError, setSaveError] = useState("");
-  const [fundStrategy, setFundStrategy] = useState<{ sectors?: string[]; stages?: string[]; geos?: string[]; thesis?: string } | null>(null);
 
-  // Hydrate saved DNA profile + fund strategy defaults
   useEffect(() => {
     const dna = getDNA();
     if (dna) {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- Hydrate browser-only state after the server render.
       setSelectedSectors(dna.sectors);
       setSelectedStages(dna.stages);
       setSelectedGeos(dna.geos);
@@ -33,22 +73,29 @@ export default function DNAPage() {
     }
     fetchCollection("strategy")
       .then((items) => {
-        const s = items[0];
-        if (s) {
-          setFundStrategy(s as { sectors?: string[]; stages?: string[]; geos?: string[]; thesis?: string });
-          // If the user has no personal DNA yet, pre-fill from fund strategy
-          if (!dna) {
-            if (Array.isArray(s.sectors)) setSelectedSectors(s.sectors as string[]);
-            if (Array.isArray(s.stages)) setSelectedStages(s.stages as string[]);
-            if (Array.isArray(s.geos)) setSelectedGeos(s.geos as string[]);
-          }
+        const row = items[0] as { sectors?: string[]; stages?: string[]; geos?: string[]; checkSize?: string; thesis?: string } | undefined;
+        if (!row) return;
+        const nextThesis = typeof row.thesis === "string" ? row.thesis.slice(0, LIMIT) : "";
+        setThesis(nextThesis);
+        if (!dna) {
+          if (Array.isArray(row.sectors)) setSelectedSectors(row.sectors);
+          if (Array.isArray(row.stages)) setSelectedStages(row.stages);
+          if (Array.isArray(row.geos)) setSelectedGeos(row.geos);
+          if (typeof row.checkSize === "string" && row.checkSize) setCheckSize(row.checkSize);
         }
+        const source = dna ?? {
+          sectors: Array.isArray(row.sectors) ? row.sectors : [],
+          stages: Array.isArray(row.stages) ? row.stages : [],
+          geos: Array.isArray(row.geos) ? row.geos : [],
+          checkSize: typeof row.checkSize === "string" ? row.checkSize : "",
+        };
+        setBaseline({ ...source, thesis: nextThesis });
       })
       .catch(() => { if (!getDNA()) setSaveError("The saved strategy could not load. These chips stay empty of that file until it loads."); });
   }, []);
 
-  const toggle = (list: string[], item: string, set: (v: string[]) => void) => {
-    set(list.includes(item) ? list.filter((x) => x !== item) : [...list, item]);
+  const toggle = (list: string[], item: string, set: (value: string[]) => void) => {
+    set(list.includes(item) ? list.filter((entry) => entry !== item) : [...list, item]);
     setSaved(false);
   };
 
@@ -59,9 +106,10 @@ export default function DNAPage() {
       const profile = saveDNA({ sectors: selectedSectors, stages: selectedStages, geos: selectedGeos, checkSize });
       const items = await fetchCollection("strategy");
       const existing = items[0];
-      const patch = { sectors: profile.sectors, stages: profile.stages, geos: profile.geos, checkSize: profile.checkSize, savedAt: profile.savedAt };
+      const patch = { sectors: profile.sectors, stages: profile.stages, geos: profile.geos, checkSize: profile.checkSize, thesis, savedAt: profile.savedAt };
       if (existing) await updateRecord("strategy", existing.id, patch);
       else await createRecord("strategy", patch);
+      setBaseline({ sectors: profile.sectors, stages: profile.stages, geos: profile.geos, checkSize: profile.checkSize, thesis });
       setSaved(true);
     } catch (reason) {
       setSaved(false);
@@ -71,202 +119,132 @@ export default function DNAPage() {
     }
   };
 
-  const { decisions, stages: dealStages } = parseSnapshot(useSyncExternalStore(subscribeStore, getStoreSnapshot, getStoreServerSnapshot));
-  const memory = bookMemory(decisions, dealStages);
-  const completeness = Math.round(
-    ((selectedSectors.length > 0 ? 25 : 0) +
-    (selectedStages.length > 0 ? 25 : 0) +
-    (selectedGeos.length > 0 ? 25 : 0) +
-    (checkSize ? 25 : 0))
-  );
+  const snapshot = parseSnapshot(useSyncExternalStore(subscribeStore, getStoreSnapshot, getStoreServerSnapshot));
+  const alerts = liveHoldings(snapshot.stages).filter((item) => item.alerts.length > 0 && selectedSectors.includes(item.sector));
+  const outside = sectors.filter((item) => !selectedSectors.includes(item)).slice(0, 3);
+  const focusOn = selectedSectors.length > 0;
+  const stageOn = selectedStages.length > 0;
+  const placeOn = selectedGeos.length > 0 && Boolean(checkSize);
+  const completeness = Math.round(((focusOn ? 34 : 0) + (stageOn ? 33 : 0) + (placeOn ? 33 : 0)));
+  const sizes = checkSizes.includes(checkSize) || !checkSize ? checkSizes : [checkSize, ...checkSizes];
+  const changeBits = baseline
+    ? [
+        added(selectedSectors, baseline.sectors).length ? `Sectors added: ${added(selectedSectors, baseline.sectors).join(", ")}` : "",
+        added(baseline.sectors, selectedSectors).length ? `Sectors removed: ${added(baseline.sectors, selectedSectors).join(", ")}` : "",
+        !same(selectedStages, baseline.stages) ? "Stage selection changed" : "",
+        !same(selectedGeos, baseline.geos) ? "Geography changed" : "",
+        checkSize !== baseline.checkSize ? "Check size changed" : "",
+        thesis !== baseline.thesis ? "Fund context changed" : "",
+      ].filter(Boolean)
+    : [];
 
   return (
-    <div className="p-4 md:p-8 fade-in max-w-3xl">
-      <div className="mb-7">
-        <h1 className="text-2xl font-bold mb-1" style={{ color: "var(--text-primary)" }}>Investment strategy</h1>
-        <p style={{ color: "var(--text-muted)", fontSize: 14 }}>
-          Define your investment preferences to personalize sample company rankings.
-        </p>
-      </div>
+    <div className={styles.page}>
+      <header className={styles.top}>
+        <div>
+          <p className={styles.kicker}>Investment strategy</p>
+          <h1>Investment strategy</h1>
+          <p className={styles.lede}>Define your investment preferences to personalise target company rankings.</p>
+        </div>
+        <div className={styles.actions}>
+          <button type="button" className={styles.ghost} onClick={() => window.print()}><Download size={15} /> Export PDF</button>
+          <button type="button" className={styles.primary} onClick={() => void handleSave()} disabled={saving}><Save size={15} /> {saving ? "Saving…" : "Save strategy"}</button>
+        </div>
+      </header>
 
-      {/* Fund strategy context */}
-      {fundStrategy?.thesis && (
-        <div className="glass rounded-xl p-5 mb-7" style={{ borderColor: "rgba(0,113,227,0.2)" }}>
-          <div className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "var(--accent-blue-light)" }}>
-            🧭 Fund I Strategy (default)
-          </div>
-          <p className="text-sm leading-relaxed" style={{ color: "var(--text-muted)" }}>
-            {fundStrategy.thesis}
-          </p>
-          <div className="text-xs mt-2" style={{ color: "var(--text-subtle)" }}>
-            Your personal DNA below starts from the fund strategy — tune it to re-rank Deal Discovery.
-          </div>
-        </div>
-      )}
+      <div className={styles.layout}>
+        <div className={styles.main}>
+          <section className={styles.card}>
+            <h2><FileText size={16} /> Fund / Strategy context (optional)</h2>
+            <p className={styles.hint}>Provide a short description of your fund, investment thesis, or strategic focus. This helps tailor company ranking and deal discovery.</p>
+            <textarea className={styles.field} maxLength={LIMIT} value={thesis} onChange={(event) => { setThesis(event.target.value.slice(0, LIMIT)); setSaved(false); }} aria-label="Fund or strategy context" />
+            <p className={styles.count}>{thesis.length}/{LIMIT}</p>
+          </section>
 
-      {/* DNA completeness */}
-      <div className="glass rounded-xl p-5 mb-7">
-        <div className="flex items-center justify-between mb-3">
-          <span className="text-sm font-semibold" style={{ color: "var(--text-primary)" }}>DNA Profile Completeness</span>
-          <span className="text-2xl font-bold gradient-text-gold">{completeness}%</span>
-        </div>
-        <div
-          className="h-2 rounded-full overflow-hidden"
-          style={{ background: "var(--bg-surface-3)" }}
-          role="progressbar"
-          aria-valuenow={completeness}
-          aria-valuemin={0}
-          aria-valuemax={100}
-          aria-label="DNA profile completeness"
-        >
-          <div
-            className="h-full rounded-full transition-all duration-500"
-            style={{ width: `${completeness}%`, background: "linear-gradient(90deg, var(--accent-blue), var(--accent-gold))" }}
-          />
-        </div>
-        <p className="text-xs mt-2" style={{ color: "var(--text-subtle)" }}>
-          Complete your DNA to unlock personalized deal discovery
-        </p>
-      </div>
-
-      {/* Sectors */}
-      <div className="mb-7">
-        <div className="font-semibold text-sm mb-3" style={{ color: "var(--text-primary)" }}>
-          Sector Focus <span style={{ color: "var(--text-subtle)" }}>({selectedSectors.length} selected)</span>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {sectors.map((s) => (
-            <button
-              key={s}
-              onClick={() => toggle(selectedSectors, s, setSelectedSectors)}
-              className="px-3 py-2 rounded-full text-sm font-medium transition-all"
-              style={{
-                background: selectedSectors.includes(s) ? "rgba(0,113,227,0.15)" : "var(--bg-surface)",
-                color: selectedSectors.includes(s) ? "var(--accent-blue-light)" : "var(--text-muted)",
-                border: `1px solid ${selectedSectors.includes(s) ? "rgba(0,113,227,0.3)" : "var(--border)"}`,
-              }}
-            >
-              {s}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Stages */}
-      <div className="mb-7">
-        <div className="font-semibold text-sm mb-3" style={{ color: "var(--text-primary)" }}>
-          Investment Stage <span style={{ color: "var(--text-subtle)" }}>({selectedStages.length} selected)</span>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {stages.map((s) => (
-            <button
-              key={s}
-              onClick={() => toggle(selectedStages, s, setSelectedStages)}
-              className="px-4 py-2.5 rounded-full text-sm font-medium transition-all"
-              style={{
-                background: selectedStages.includes(s) ? "rgba(183,121,31,0.12)" : "var(--bg-surface)",
-                color: selectedStages.includes(s) ? "var(--accent-gold)" : "var(--text-muted)",
-                border: `1px solid ${selectedStages.includes(s) ? "rgba(183,121,31,0.3)" : "var(--border)"}`,
-              }}
-            >
-              {s}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Geography */}
-      <div className="mb-7">
-        <div className="font-semibold text-sm mb-3" style={{ color: "var(--text-primary)" }}>
-          Geography <span style={{ color: "var(--text-subtle)" }}>({selectedGeos.length} selected)</span>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {geos.map((g) => (
-            <button
-              key={g}
-              onClick={() => toggle(selectedGeos, g, setSelectedGeos)}
-              className="px-3 py-2 rounded-full text-sm font-medium transition-all"
-              style={{
-                background: selectedGeos.includes(g) ? "rgba(30,158,82,0.1)" : "var(--bg-surface)",
-                color: selectedGeos.includes(g) ? "var(--accent-green)" : "var(--text-muted)",
-                border: `1px solid ${selectedGeos.includes(g) ? "rgba(30,158,82,0.25)" : "var(--border)"}`,
-              }}
-            >
-              {g}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Check size */}
-      <div className="mb-8">
-        <div className="font-semibold text-sm mb-3" style={{ color: "var(--text-primary)" }}>Check Size</div>
-        <div className="flex flex-wrap gap-2">
-          {(checkSizes.includes(checkSize) || !checkSize ? checkSizes : [checkSize, ...checkSizes]).map((s) => (
-            <button
-              key={s}
-              onClick={() => setCheckSize(s)}
-              className="px-4 py-2.5 rounded-full text-sm font-medium transition-all"
-              style={{
-                background: checkSize === s ? "rgba(0,113,227,0.15)" : "var(--bg-surface)",
-                color: checkSize === s ? "var(--accent-blue-light)" : "var(--text-muted)",
-                border: `1px solid ${checkSize === s ? "rgba(0,113,227,0.3)" : "var(--border)"}`,
-              }}
-            >
-              {s}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      <section className="glass rounded-xl p-5 mb-6">
-        <h2 className="text-sm font-semibold mb-1" style={{ color: "var(--text-primary)" }}>What the book already shows</h2>
-        <p className="text-xs mb-4" style={{ color: "var(--text-subtle)" }}>Previous investments, positions that have held, and positions that have gone against the book. Read from the current snapshot and your saved decisions.</p>
-        <div className="space-y-3">
-          {memory.lines.map((line) => (
-            <div key={line.label}>
-              <div className="text-xs font-semibold uppercase tracking-wide" style={{ color: "var(--accent-gold)" }}>{line.label}</div>
-              <p className="text-sm mt-1" style={{ color: "var(--text-muted)" }}>{line.text}</p>
+          <section className={styles.card}>
+            <div className={styles.meterHead}>
+              <div>
+                <h2>DNA profile completeness</h2>
+                <p className={styles.hint}>Complete your DNA to unlock personalised deal discovery.</p>
+              </div>
+              <strong>{completeness}%</strong>
             </div>
-          ))}
+            <div className={styles.track} role="progressbar" aria-valuenow={completeness} aria-valuemin={0} aria-valuemax={100} aria-label="DNA profile completeness"><i style={{ width: `${completeness}%` }} /></div>
+            <div className={styles.checks}>
+              <span data-on={focusOn}><Check size={14} /> Strategic focus defined</span>
+              <span data-on={stageOn}><Check size={14} /> Investment stage set</span>
+              <span data-on={placeOn}><Check size={14} /> Geography & check size selected</span>
+            </div>
+          </section>
+
+          <section className={styles.card}>
+            <h2><Target size={16} /> Sectors focus <span style={{ fontWeight: 500, color: "#94a3b8" }}>(select all that apply)</span></h2>
+            <p className={styles.hint}>Choose the sectors that align with your investment strategy.</p>
+            <div className={styles.chips}>{sectors.map((item) => <Chip key={item} label={item} tone="blue" on={selectedSectors.includes(item)} onClick={() => toggle(selectedSectors, item, setSelectedSectors)} />)}</div>
+          </section>
+
+          <section className={styles.card}>
+            <h2>Investment stage <span style={{ fontWeight: 500, color: "#94a3b8" }}>(select all that apply)</span></h2>
+            <p className={styles.hint}>Select the stages you invest in.</p>
+            <div className={styles.chips}>{stages.map((item) => <Chip key={item} label={item} tone="amber" on={selectedStages.includes(item)} onClick={() => toggle(selectedStages, item, setSelectedStages)} />)}</div>
+          </section>
+
+          <section className={styles.card}>
+            <h2><Globe2 size={16} /> Geography <span style={{ fontWeight: 500, color: "#94a3b8" }}>(select all that apply)</span></h2>
+            <p className={styles.hint}>Choose target regions for investment.</p>
+            <div className={styles.chips}>{geos.map((item) => <Chip key={item} label={item} tone="green" on={selectedGeos.includes(item)} onClick={() => toggle(selectedGeos, item, setSelectedGeos)} />)}</div>
+          </section>
+
+          <section className={styles.card}>
+            <h2><Wallet size={16} /> Check size</h2>
+            <p className={styles.hint}>Select your typical investment size.</p>
+            <div className={styles.chips}>{sizes.map((item) => <Chip key={item} label={item} tone="blue" on={checkSize === item} onClick={() => { setCheckSize(item); setSaved(false); }} />)}</div>
+          </section>
+        </div>
+
+        <aside className={styles.side}>
+          <section className={styles.card}>
+            <h2><Target size={16} /> Strategy summary</h2>
+            <div className={styles.row}><span>Strategic focus</span><Pills items={selectedSectors} tone="blue" /></div>
+            <div className={styles.row}><span>Stage</span><Pills items={selectedStages} tone="amber" /></div>
+            <div className={styles.row}><span>Geography</span><Pills items={selectedGeos} tone="green" /></div>
+            <div className={styles.row}><span>Check size</span><Pills items={checkSize ? [checkSize] : []} tone="blue" /></div>
+            <div className={styles.stats}>
+              <div><b>{selectedSectors.length}</b><span>Focus areas</span></div>
+              <div><b>{selectedStages.length}</b><span>Stages</span></div>
+              <div><b>{selectedGeos.length}</b><span>Regions</span></div>
+              <div><b>{checkSize ? 1 : 0}</b><span>Check size</span></div>
+            </div>
+            {saved && <div className={styles.saved}><Check size={16} /><div><strong>Strategy saved</strong>Your preferences are used to personalise target company rankings and deal discovery.</div></div>}
+            {saveError && <p className={styles.error} role="alert">{saveError}</p>}
+          </section>
+        </aside>
+      </div>
+
+      <section className={`${styles.card} ${styles.tools}`}>
+        <h2><Lightbulb size={16} /> What the tools already show</h2>
+        <p className={styles.hint}>Based on your inputs, here is how this page changes company ranking. It does not add a new market feed.</p>
+        <div className={styles.grid}>
+          <article className={styles.insight}><Target size={16} color="#2563eb" /><div><strong>Primary investment thesis</strong><p>{thesis.trim() || "Add a fund context above. Until then, ranking uses only the sectors, stages, regions and check size you select."}</p></div></article>
+          <article className={styles.insight}><ThumbsUp size={16} color="#15803d" /><div><strong>What helped</strong><p>{selectedGeos.length ? `${selectedGeos.join(", ")} ${selectedGeos.length === 1 ? "is" : "are"} included when a company is scored for geography.` : "No region is selected, so geography does not narrow the list."}</p></div></article>
+          <article className={styles.insight}><Clock size={16} color="#b45309" /><div><strong>What has changed</strong><p>{changeBits.length ? changeBits.join(". ") + "." : "Nothing differs from the strategy loaded on this page."}</p></div></article>
+          <article className={styles.insight}><CircleAlert size={16} color="#b45309" /><div><strong>What sits outside</strong><p>{outside.length ? `Companies whose sector is only ${outside.join(", ")} sit outside this strategy and rank lower.` : "Every listed sector is selected, so sector does not exclude a company."}</p></div></article>
+          <article className={styles.insight}><Bell size={16} color="#b45309" /><div><strong>Open alerts</strong><p>{alerts.length ? alerts.map((item) => `${item.name}: ${item.alerts[0]}`).join(" ") : "No portfolio alert is in the sectors selected here."}</p></div></article>
+          <article className={styles.insight}><FileText size={16} color="#2563eb" /><div><strong>Decision support</strong><p>Discover ranks companies from this strategic fit, stage, region and check size, together with the company file already in the workspace.</p></div></article>
         </div>
       </section>
 
-      {/* Summary */}
-      {completeness === 100 && (
-        <div
-          className="glass rounded-xl p-5 mb-6 fade-in"
-          style={{ borderColor: "rgba(0,113,227,0.2)" }}
-        >
-          <div className="text-sm font-semibold mb-3" style={{ color: "var(--text-primary)" }}>Your Investment DNA</div>
-          <div className="grid grid-cols-2 gap-3 text-sm">
-            <div><span style={{ color: "var(--text-muted)" }}>Sectors: </span><span style={{ color: "var(--accent-blue-light)" }}>{selectedSectors.join(", ")}</span></div>
-            <div><span style={{ color: "var(--text-muted)" }}>Stages: </span><span style={{ color: "var(--accent-gold)" }}>{selectedStages.join(", ")}</span></div>
-            <div><span style={{ color: "var(--text-muted)" }}>Geography: </span><span style={{ color: "var(--accent-green)" }}>{selectedGeos.join(", ")}</span></div>
-            <div><span style={{ color: "var(--text-muted)" }}>Check Size: </span><span style={{ color: "var(--text-primary)" }}>{checkSize}</span></div>
-          </div>
+      <section className={`${styles.card} ${styles.foot}`}>
+        <div className={styles.summary}>
+          <div><h3>Your investment DNA</h3><p>A summary of your current settings.</p></div>
+          <div><span>Sectors</span><p>{brief(selectedSectors)}</p></div>
+          <div><span>Stages</span><p>{selectedStages.length ? `${selectedStages.join(", ")} (${selectedStages.length})` : "None"}</p></div>
+          <div><span>Geography</span><p>{brief(selectedGeos, 4)}</p></div>
+          <div><span>Check size</span><p>{checkSize || "None"}</p></div>
         </div>
-      )}
-
-      {saveError && <p className="text-sm mb-3" role="alert" style={{ color: "var(--accent-red, #BA3D52)" }}>{saveError}</p>}
-      <button
-        onClick={() => void handleSave()}
-        disabled={saving}
-        className="w-full py-4 rounded-full font-semibold transition-all hover:opacity-90"
-        style={{ background: "var(--accent-blue)", color: "#fff" }}
-      >
-        {saving ? "Saving…" : saved ? "Strategy saved — Discover uses it" : "Save investment strategy"}
-      </button>
-
-      {saved && (
-        <Link
-          href="/discovery"
-          className="mt-3 block w-full text-center py-3 rounded-full font-semibold transition-all hover:opacity-90 fade-in"
-          style={{ background: "var(--bg-surface-2)", color: "var(--text-muted)", border: "1px solid var(--border)" }}
-        >
-          See re-ranked Deal Discovery →
-        </Link>
-      )}
+        <Link className={styles.dark} href="/discovery">{saved ? "Strategy saved — Discover deals" : "Discover deals"}</Link>
+        <button type="button" className={styles.outline} onClick={() => void handleSave()} disabled={saving}>{saving ? "Saving…" : "Save as market DNA discovery"}</button>
+      </section>
     </div>
   );
 }
